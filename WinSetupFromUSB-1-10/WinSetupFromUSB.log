@@ -1,0 +1,2307 @@
+2024/04/07 13:09:10- WinSetupFromUSB 1.10 started
+2024/04/07 13:09:10- OS: WIN_8  Architecture type: X64 ServicePack:  OS Language: 0409
+2024/04/07 13:09:10- Program directory: D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10
+2024/04/07 13:09:10- Checking if important program files are present
+2024/04/07 13:09:10- Getting USB drives information
+2024/04/07 13:09:10- Show all drives option is NOT selected, displaying USB drives only
+2024/04/07 13:09:10-   HP USB Flash Drive USB Device
+2024/04/07 13:09:10- 	DeviceID: \\.\PHYSICALDRIVE2
+2024/04/07 13:09:10- 	PNPDeviceID: USBSTOR\DISK&VEN_HP&PROD_USB_FLASH_DRIVE&REV_PMAP\07082AB332AEDB02&0
+2024/04/07 13:09:10- 	DiskSize: 57.7 GB Signature: 4F1ADF89
+2024/04/07 13:09:10- 	Partitions found: 1  MediaType: Removable Media
+2024/04/07 13:09:10- 		Disk--Partition: Disk #2, Partition #0
+2024/04/07 13:09:10- 			Logical Disk:F:  File system:FAT32 Primary:True  Bootable:True
+2024/04/07 13:09:10- 			FreeSpace: 47.9 GB Partition Size: 57.7 GB
+2024/04/07 13:09:10- 			Partition Starting Offset: 8257536
+2024/04/07 13:09:11- Drive letter of the selected partition- F:
+2024/04/07 13:09:11- Drive letter of the first primary partition in selected disk- F:
+2024/04/07 13:09:11- Disk number of the selected disk- 2
+2024/04/07 13:09:11- PNPId of the selected disk- USBSTOR\DISK&VEN_HP&PROD_USB_FLASH_DRIVE&REV_PMAP\07082AB332AEDB02&0
+2024/04/07 13:09:11- File system type of the selected partition- FAT32
+2024/04/07 13:09:11- Disk type of the selected disk- Removable
+2024/04/07 13:09:11- Total target space available- 51492814848 bytes ( 47.9 GB )
+2024/04/07 13:09:11- Checking sizes...
+2024/04/07 13:09:11- Total source size- 0 bytes
+2024/04/07 13:09:11- Target space available- 47.9 GB
+2024/04/07 13:09:26- Checking sizes...
+2024/04/07 13:09:26- Total source size- 0 bytes
+2024/04/07 13:09:26- Target space available- 47.9 GB
+2024/04/07 13:09:33- Checking for boot files
+2024/04/07 13:09:34- 
+7-Zip 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+Listing archive: D:\All ISO IMAGE\HBCD_PE_x64.iso
+
+--
+Path = D:\All ISO IMAGE\HBCD_PE_x64.iso
+Type = Udf
+Comment = HBCD_PE_x64
+Cluster Size = 2048
+Created = 2024-03-05 04:24:28
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-09-30 23:24:18 .....       442774       444416  BOOTMGR
+2024-02-06 02:17:08 .....        24576        24576  boot\bcd
+------------------- ----- ------------ ------------  ------------------------
+                                467350       468992  2 files, 0 folders
+
+2024/04/07 13:09:34- Checking sizes...
+2024/04/07 13:09:34- Total source size- 3.45 GB
+2024/04/07 13:09:34- Target space available- 47.9 GB
+2024/04/07 13:09:34- Vista/7/8/10/Server 2008/2012/2016 source selected- D:\All ISO IMAGE\HBCD_PE_x64.iso
+2024/04/07 13:09:39- FlushFileBuffers : 1
+2024/04/07 13:09:39- Checking if grub4dos is installed properly
+2024/04/07 13:09:39- Checking for Grub4dos/Wee/FB MBR on disk #2
+2024/04/07 13:09:39- version: 1.6
+base boot sector: 63
+boot code size: 4
+primary data size: 16128
+extended data size: 0
+debug version: no
+bpb status: copy
+format options:
+file list size: 896
+file list used: 1
+files:
+  0    "grldr" 0x3c4 272255 (2013-07-23 21:02:17)
+  0    "grub.exe" 0x5da 291231 (2013-07-23 21:02:17)
+  0    "plpbt.bin" 0x816 43559 (2012-02-24 21:25:52)
+  0    "fb.cfg" 0x86c 221 (2024-04-07 12:03:18)
+  1*   0x86d 0x3693
+primary area free space: 7125210
+extended area free space: 0
+
+
+2024/04/07 13:09:39- FBinst data found
+2024/04/07 13:09:39- Installing grub4dos and boot files
+2024/04/07 13:09:39- grub4dos is installed
+2024/04/07 13:09:39- Preparing NT6 source
+2024/04/07 13:09:39- Determining if this is NT Setup or PE based utility, looking for install.wim, install.swm or install.esd
+2024/04/07 13:09:39- 
+7-Zip 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+Listing archive: D:\All ISO IMAGE\HBCD_PE_x64.iso
+
+--
+Path = D:\All ISO IMAGE\HBCD_PE_x64.iso
+Type = Udf
+Comment = HBCD_PE_x64
+Cluster Size = 2048
+Created = 2024-03-05 04:24:28
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files, 0 folders
+
+2024/04/07 13:09:39- Did not find install.wim, install.swm or install.esd, assuming PE based utility
+2024/04/07 13:09:39- Custom folder and boot menu name for Windows NT6 Setup checkbox was selected, gathering data
+2024/04/07 13:09:50- Custom setup folder entered: HIRON
+2024/04/07 13:10:01- Custom Windows Setup boot name entered: HIRON-OS-RKP
+2024/04/07 13:10:01- Changed NT6 boot menu name to: HIRON-OS-RKP
+2024/04/07 13:10:01- Preparing NT6 boot files, please wait...
+2024/04/07 13:10:01- Path to bcdedit.exe: C:\Windows\system32
+2024/04/07 13:10:01- Extracting boot files from D:\All ISO IMAGE\HBCD_PE_x64.iso
+2024/04/07 13:10:02- 
+7-Zip 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+Processing archive: D:\All ISO IMAGE\HBCD_PE_x64.iso
+
+Extracting  BOOTMGR
+Extracting  boot
+Extracting  boot\Fonts
+Extracting  boot\Fonts\chs_boot.ttf
+Extracting  boot\Fonts\cht_boot.ttf
+Extracting  boot\Fonts\jpn_boot.ttf
+Extracting  boot\Fonts\kor_boot.ttf
+Extracting  boot\Fonts\malgun_boot.ttf
+Extracting  boot\Fonts\malgunn_boot.ttf
+Extracting  boot\Fonts\meiryo_boot.ttf
+Extracting  boot\Fonts\meiryon_boot.ttf
+Extracting  boot\Fonts\msjh_boot.ttf
+Extracting  boot\Fonts\msjhn_boot.ttf
+Extracting  boot\Fonts\msyh_boot.ttf
+Extracting  boot\Fonts\msyhn_boot.ttf
+Extracting  boot\Fonts\segmono_boot.ttf
+Extracting  boot\Fonts\segoe_slboot.ttf
+Extracting  boot\Fonts\segoen_slboot.ttf
+Extracting  boot\Fonts\wgl4_boot.ttf
+Extracting  boot\bcd
+Extracting  boot\boot.sdi
+Extracting  boot\bootsect.exe
+Extracting  boot\en-US
+Extracting  boot\en-US\bootmgr.exe.mui
+Extracting  boot\en-US\bootsect.exe.mui
+Extracting  boot\en-US\memtest.exe.mui
+Extracting  boot\etfsboot.com
+Extracting  boot\memtest.exe
+Extracting  efi
+Extracting  efi\boot
+Extracting  efi\boot\bootx64.efi
+Extracting  efi\boot\en-US
+Extracting  efi\boot\en-US\bootx64.efi.mui
+Extracting  efi\microsoft
+Extracting  efi\microsoft\boot
+Extracting  efi\microsoft\boot\bcd
+Extracting  efi\microsoft\boot\efisys.bin
+Extracting  efi\microsoft\boot\en-US
+Extracting  efi\microsoft\boot\en-US\bootmgr.efi.mui
+Extracting  efi\microsoft\boot\en-US\memtest.efi.mui
+Extracting  efi\microsoft\boot\fonts
+Extracting  efi\microsoft\boot\fonts\chs_boot.ttf
+Extracting  efi\microsoft\boot\fonts\cht_boot.ttf
+Extracting  efi\microsoft\boot\fonts\jpn_boot.ttf
+Extracting  efi\microsoft\boot\fonts\kor_boot.ttf
+Extracting  efi\microsoft\boot\fonts\malgun_boot.ttf
+Extracting  efi\microsoft\boot\fonts\malgunn_boot.ttf
+Extracting  efi\microsoft\boot\fonts\meiryo_boot.ttf
+Extracting  efi\microsoft\boot\fonts\meiryon_boot.ttf
+Extracting  efi\microsoft\boot\fonts\msjh_boot.ttf
+Extracting  efi\microsoft\boot\fonts\msjhn_boot.ttf
+Extracting  efi\microsoft\boot\fonts\msyh_boot.ttf
+Extracting  efi\microsoft\boot\fonts\msyhn_boot.ttf
+Extracting  efi\microsoft\boot\fonts\segmono_boot.ttf
+Extracting  efi\microsoft\boot\fonts\segoe_slboot.ttf
+Extracting  efi\microsoft\boot\fonts\segoen_slboot.ttf
+Extracting  efi\microsoft\boot\fonts\wgl4_boot.ttf
+Extracting  efi\microsoft\boot\memtest.efi
+
+Everything is Ok
+
+Folders: 10
+Files: 48
+Size:       37128894
+Compressed: 3291686912
+
+2024/04/07 13:10:02- 
+Windows Boot Loader
+-------------------
+identifier              {7619dcc9-fafe-11d9-b411-000476eba25f}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             HBCD_PE x64
+locale                  en-US
+inherit                 {6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:10:02- Processing GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:10:02- Parsing D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd for GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:10:03- 
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             HBCD_PE x64
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:10:03- Element: identifier
+2024/04/07 13:10:03- Element: device
+2024/04/07 13:10:03- Processing device
+2024/04/07 13:10:03- device: \sources\boot.wim
+2024/04/07 13:10:03- boot.wim name: boot.wim
+2024/04/07 13:10:03- boot.wim path: \sources\
+2024/04/07 13:10:03- Extracting \sources\boot.wim from D:\All ISO IMAGE\HBCD_PE_x64.iso
+2024/04/07 13:10:49- 
+7-Zip 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+Processing archive: D:\All ISO IMAGE\HBCD_PE_x64.iso
+
+Extracting  sources\boot.wim
+
+Everything is Ok
+
+Size:       1938994586
+Compressed: 3291686912
+
+2024/04/07 13:10:50- Determining boot image index
+2024/04/07 13:10:50- WIM Information:
+----------------
+Path:           D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\sources\boot.wim
+GUID:           0x995196ff64bd8fdc2ac4fdf937ad798d
+Version:        68864
+Image Count:    1
+Compression:    XPRESS
+Chunk Size:     32768 bytes
+Part Number:    1/1
+Boot Index:     1
+Size:           1938992380 bytes
+Attributes:     Relative path junction
+
+Available Images:
+-----------------
+Index:                  1
+Name:                   HBCD_PE_x64
+Description:            HBCD_PE_x64
+Display Name:           Windows (TM) 10 Preinstallation Environment
+Display Description:    Windows (TM) 10 Preinstallation Environment
+Directory Count:        2728
+File Count:             17542
+Total Bytes:            5552917334
+Hard Link Bytes:        336051300
+Creation Time:          Tue Mar 05 11:23:36 2024 UTC
+Last Modification Time: Tue Mar 05 11:23:38 2024 UTC
+Architecture:           x86_64
+Product Name:           Windows (TM) 10 Preinstallation Environment
+Edition ID:             WindowsPE
+Installation Type:      WindowsPE
+Product Type:           WinNT
+Product Suite:          Terminal Server
+Languages:              en-US 
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  22621
+Service Pack Build:     2428
+Service Pack Level:     0
+Flags:                  9
+WIMBoot compatible:     no
+
+
+2024/04/07 13:10:50- Boot image index: 1
+2024/04/07 13:10:50- Extracting winpeshl.ini from boot.wim
+2024/04/07 13:10:51- Extracting file data: 27 bytes of 27 bytes (100%) done
+Done extracting files.
+
+2024/04/07 13:10:51- Determining 64 bit version
+2024/04/07 13:10:51- \Windows\SysWOW64
+
+2024/04/07 13:10:51- 64-bits version found
+2024/04/07 13:10:51- Determining version of D:\All ISO IMAGE\HBCD_PE_x64.iso
+2024/04/07 13:10:51- 
+7-Zip 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+Listing archive: D:\All ISO IMAGE\HBCD_PE_x64.iso
+
+--
+Path = D:\All ISO IMAGE\HBCD_PE_x64.iso
+Type = Udf
+Comment = HBCD_PE_x64
+Cluster Size = 2048
+Created = 2024-03-05 04:24:28
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+------------------- ----- ------------ ------------  ------------------------
+                                     0            0  0 files, 0 folders
+
+2024/04/07 13:10:51- Information for Image 1
+-----------------------
+Index:                  1
+Name:                   HBCD_PE_x64
+Description:            HBCD_PE_x64
+Display Name:           Windows (TM) 10 Preinstallation Environment
+Display Description:    Windows (TM) 10 Preinstallation Environment
+Directory Count:        2728
+File Count:             17542
+Total Bytes:            5552917334
+Hard Link Bytes:        336051300
+Creation Time:          Tue Mar 05 11:23:36 2024 UTC
+Last Modification Time: Tue Mar 05 11:23:38 2024 UTC
+Architecture:           x86_64
+Product Name:           Windows (TM) 10 Preinstallation Environment
+Edition ID:             WindowsPE
+Installation Type:      WindowsPE
+Product Type:           WinNT
+Product Suite:          Terminal Server
+Languages:              en-US 
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  22621
+Service Pack Build:     2428
+Service Pack Level:     0
+Flags:                  9
+WIMBoot compatible:     no
+
+
+2024/04/07 13:10:51- Major version: 10
+2024/04/07 13:10:51- Minor version: 0
+2024/04/07 13:10:51- Build: 22621
+2024/04/07 13:10:51- Service Pack Level: 0
+2024/04/07 13:10:51- AMD64 flag: 1
+2024/04/07 13:10:51- Boot menu build: 
+2024/04/07 13:10:51- NT boot menu name: HIRON-OS-RKP
+2024/04/07 13:10:51- NT folder name: \WINSETUP\HIRON
+2024/04/07 13:10:51- Renaming winpeshl.ini
+2024/04/07 13:10:52- Renamed WIM path "\Windows\System32\Winpeshl.ini" => "\Windows\System32\Winpeshl.ini.orig"
+
+2024/04/07 13:10:52- Winpeshl.ini:
+[LaunchApps]
+%systemdrive%\windows\WinPreSetup.exe, "/mountiso=WINSETUP\HIRON\HBCD_PE_x64.iso"
+wpeinit.exe
+
+
+2024/04/07 13:10:52- Updating winpeshl.ini
+2024/04/07 13:10:52- Renamed WIM path "\Windows\System32\Winpeshl.ini" => "\Windows\System32\Winpeshl.ini.orig"
+Scanning "D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\Windows\System32\Winpeshl.ini" (loading as WIM path: "\Windows\System32\Winpeshl.ini")...
+110 bytes scanned (1 files, 0 directories)    110 bytes scanned (1 files, 0 directories)    
+Using XPRESS compression with 1 thread
+Archiving file data: 0 bytes of 110 bytes (0%) doneArchiving file data: 110 bytes of 110 bytes (100%) done
+
+2024/04/07 13:10:52- Adding WinPreSetup.exe to boot.wim
+2024/04/07 13:10:52- Scanning "D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\Windows\WinPreSetup.exe" (loading as WIM path: "\Windows\WinPreSetup.exe")...
+1210 KiB scanned (1 files, 0 directories)    1210 KiB scanned (1 files, 0 directories)    
+Using XPRESS compression with 1 thread
+Archiving file data: 0 KiB of 1210 KiB (0%) doneArchiving file data: 32 KiB of 1210 KiB (2%) doneArchiving file data: 64 KiB of 1210 KiB (5%) doneArchiving file data: 96 KiB of 1210 KiB (7%) doneArchiving file data: 128 KiB of 1210 KiB (10%) doneArchiving file data: 160 KiB of 1210 KiB (13%) doneArchiving file data: 192 KiB of 1210 KiB (15%) doneArchiving file data: 224 KiB of 1210 KiB (18%) doneArchiving file data: 256 KiB of 1210 KiB (21%) doneArchiving file data: 288 KiB of 1210 KiB (23%) doneArchiving file data: 320 KiB of 1210 KiB (26%) doneArchiving file data: 352 KiB of 1210 KiB (29%) doneArchiving file data: 384 KiB of 1210 KiB (31%) doneArchiving file data: 416 KiB of 1210 KiB (34%) doneArchiving file data: 448 KiB of 1210 KiB (37%) doneArchiving file data: 480 KiB of 1210 KiB (39%) doneArchiving file data: 512 KiB of 1210 KiB (42%) doneArchiving file data: 544 KiB of 1210 KiB (44%) doneArchiving file data: 576 KiB of 1210 KiB (47%) doneArchiving file data: 608 KiB of 1210 KiB (50%) doneArchiving file data: 640 KiB of 1210 KiB (52%) doneArchiving file data: 672 KiB of 1210 KiB (55%) doneArchiving file data: 704 KiB of 1210 KiB (58%) doneArchiving file data: 736 KiB of 1210 KiB (60%) doneArchiving file data: 768 KiB of 1210 KiB (63%) doneArchiving file data: 800 KiB of 1210 KiB (66%) doneArchiving file data: 832 KiB of 1210 KiB (68%) doneArchiving file data: 864 KiB of 1210 KiB (71%) doneArchiving file data: 896 KiB of 1210 KiB (74%) doneArchiving file data: 928 KiB of 1210 KiB (76%) doneArchiving file data: 960 KiB of 1210 KiB (79%) doneArchiving file data: 992 KiB of 1210 KiB (81%) doneArchiving file data: 1024 KiB of 1210 KiB (84%) doneArchiving file data: 1056 KiB of 1210 KiB (87%) doneArchiving file data: 1088 KiB of 1210 KiB (89%) doneArchiving file data: 1120 KiB of 1210 KiB (92%) doneArchiving file data: 1152 KiB of 1210 KiB (95%) doneArchiving file data: 1184 KiB of 1210 KiB (97%) doneArchiving file data: 1210 KiB of 1210 KiB (100%) done
+
+2024/04/07 13:10:54- FlushFileBuffers : 1
+2024/04/07 13:10:55- FlushFileBuffers : 1
+2024/04/07 13:10:56- Optimizing boot.wim
+2024/04/07 13:11:36- "D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\sources\boot.wim" original size: 1898803 KiB
+Using XPRESS compression with 4 threads
+Archiving file data: 0 MiB of 4453 MiB (0%) doneArchiving file data: 0 MiB of 4453 MiB (0%) doneArchiving file data: 6 MiB of 4453 MiB (0%) doneArchiving file data: 15 MiB of 4453 MiB (0%) doneArchiving file data: 22 MiB of 4453 MiB (0%) doneArchiving file data: 30 MiB of 4453 MiB (0%) doneArchiving file data: 69 MiB of 4453 MiB (1%) doneArchiving file data: 77 MiB of 4453 MiB (1%) doneArchiving file data: 82 MiB of 4453 MiB (1%) doneArchiving file data: 87 MiB of 4453 MiB (1%) doneArchiving file data: 92 MiB of 4453 MiB (2%) doneArchiving file data: 97 MiB of 4453 MiB (2%) doneArchiving file data: 102 MiB of 4453 MiB (2%) doneArchiving file data: 108 MiB of 4453 MiB (2%) doneArchiving file data: 113 MiB of 4453 MiB (2%) doneArchiving file data: 118 MiB of 4453 MiB (2%) doneArchiving file data: 122 MiB of 4453 MiB (2%) doneArchiving file data: 127 MiB of 4453 MiB (2%) doneArchiving file data: 132 MiB of 4453 MiB (2%) doneArchiving file data: 138 MiB of 4453 MiB (3%) doneArchiving file data: 143 MiB of 4453 MiB (3%) doneArchiving file data: 148 MiB of 4453 MiB (3%) doneArchiving file data: 153 MiB of 4453 MiB (3%) doneArchiving file data: 159 MiB of 4453 MiB (3%) doneArchiving file data: 164 MiB of 4453 MiB (3%) doneArchiving file data: 169 MiB of 4453 MiB (3%) doneArchiving file data: 174 MiB of 4453 MiB (3%) doneArchiving file data: 180 MiB of 4453 MiB (4%) doneArchiving file data: 186 MiB of 4453 MiB (4%) doneArchiving file data: 190 MiB of 4453 MiB (4%) doneArchiving file data: 195 MiB of 4453 MiB (4%) doneArchiving file data: 200 MiB of 4453 MiB (4%) doneArchiving file data: 206 MiB of 4453 MiB (4%) doneArchiving file data: 211 MiB of 4453 MiB (4%) doneArchiving file data: 216 MiB of 4453 MiB (4%) doneArchiving file data: 221 MiB of 4453 MiB (4%) doneArchiving file data: 226 MiB of 4453 MiB (5%) doneArchiving file data: 231 MiB of 4453 MiB (5%) doneArchiving file data: 236 MiB of 4453 MiB (5%) doneArchiving file data: 241 MiB of 4453 MiB (5%) doneArchiving file data: 246 MiB of 4453 MiB (5%) doneArchiving file data: 251 MiB of 4453 MiB (5%) doneArchiving file data: 256 MiB of 4453 MiB (5%) doneArchiving file data: 261 MiB of 4453 MiB (5%) doneArchiving file data: 266 MiB of 4453 MiB (5%) doneArchiving file data: 271 MiB of 4453 MiB (6%) doneArchiving file data: 276 MiB of 4453 MiB (6%) doneArchiving file data: 281 MiB of 4453 MiB (6%) doneArchiving file data: 287 MiB of 4453 MiB (6%) doneArchiving file data: 291 MiB of 4453 MiB (6%) doneArchiving file data: 297 MiB of 4453 MiB (6%) doneArchiving file data: 302 MiB of 4453 MiB (6%) doneArchiving file data: 307 MiB of 4453 MiB (6%) doneArchiving file data: 312 MiB of 4453 MiB (7%) doneArchiving file data: 317 MiB of 4453 MiB (7%) doneArchiving file data: 322 MiB of 4453 MiB (7%) doneArchiving file data: 327 MiB of 4453 MiB (7%) doneArchiving file data: 332 MiB of 4453 MiB (7%) doneArchiving file data: 337 MiB of 4453 MiB (7%) doneArchiving file data: 343 MiB of 4453 MiB (7%) doneArchiving file data: 348 MiB of 4453 MiB (7%) doneArchiving file data: 353 MiB of 4453 MiB (7%) doneArchiving file data: 358 MiB of 4453 MiB (8%) doneArchiving file data: 364 MiB of 4453 MiB (8%) doneArchiving file data: 369 MiB of 4453 MiB (8%) doneArchiving file data: 374 MiB of 4453 MiB (8%) doneArchiving file data: 379 MiB of 4453 MiB (8%) doneArchiving file data: 384 MiB of 4453 MiB (8%) doneArchiving file data: 389 MiB of 4453 MiB (8%) doneArchiving file data: 394 MiB of 4453 MiB (8%) doneArchiving file data: 402 MiB of 4453 MiB (9%) doneArchiving file data: 407 MiB of 4453 MiB (9%) doneArchiving file data: 412 MiB of 4453 MiB (9%) doneArchiving file data: 417 MiB of 4453 MiB (9%) doneArchiving file data: 422 MiB of 4453 MiB (9%) doneArchiving file data: 427 MiB of 4453 MiB (9%) doneArchiving file data: 432 MiB of 4453 MiB (9%) doneArchiving file data: 437 MiB of 4453 MiB (9%) doneArchiving file data: 442 MiB of 4453 MiB (9%) doneArchiving file data: 449 MiB of 4453 MiB (10%) doneArchiving file data: 453 MiB of 4453 MiB (10%) doneArchiving file data: 459 MiB of 4453 MiB (10%) doneArchiving file data: 464 MiB of 4453 MiB (10%) doneArchiving file data: 470 MiB of 4453 MiB (10%) doneArchiving file data: 475 MiB of 4453 MiB (10%) doneArchiving file data: 480 MiB of 4453 MiB (10%) doneArchiving file data: 486 MiB of 4453 MiB (10%) doneArchiving file data: 491 MiB of 4453 MiB (11%) doneArchiving file data: 496 MiB of 4453 MiB (11%) doneArchiving file data: 501 MiB of 4453 MiB (11%) doneArchiving file data: 506 MiB of 4453 MiB (11%) doneArchiving file data: 511 MiB of 4453 MiB (11%) doneArchiving file data: 516 MiB of 4453 MiB (11%) doneArchiving file data: 521 MiB of 4453 MiB (11%) doneArchiving file data: 526 MiB of 4453 MiB (11%) doneArchiving file data: 531 MiB of 4453 MiB (11%) doneArchiving file data: 536 MiB of 4453 MiB (12%) doneArchiving file data: 541 MiB of 4453 MiB (12%) doneArchiving file data: 546 MiB of 4453 MiB (12%) doneArchiving file data: 550 MiB of 4453 MiB (12%) doneArchiving file data: 555 MiB of 4453 MiB (12%) doneArchiving file data: 561 MiB of 4453 MiB (12%) doneArchiving file data: 569 MiB of 4453 MiB (12%) doneArchiving file data: 573 MiB of 4453 MiB (12%) doneArchiving file data: 579 MiB of 4453 MiB (13%) doneArchiving file data: 584 MiB of 4453 MiB (13%) doneArchiving file data: 590 MiB of 4453 MiB (13%) doneArchiving file data: 595 MiB of 4453 MiB (13%) doneArchiving file data: 600 MiB of 4453 MiB (13%) doneArchiving file data: 604 MiB of 4453 MiB (13%) doneArchiving file data: 609 MiB of 4453 MiB (13%) doneArchiving file data: 614 MiB of 4453 MiB (13%) doneArchiving file data: 619 MiB of 4453 MiB (13%) doneArchiving file data: 625 MiB of 4453 MiB (14%) doneArchiving file data: 631 MiB of 4453 MiB (14%) doneArchiving file data: 636 MiB of 4453 MiB (14%) doneArchiving file data: 641 MiB of 4453 MiB (14%) doneArchiving file data: 645 MiB of 4453 MiB (14%) doneArchiving file data: 650 MiB of 4453 MiB (14%) doneArchiving file data: 655 MiB of 4453 MiB (14%) doneArchiving file data: 660 MiB of 4453 MiB (14%) doneArchiving file data: 665 MiB of 4453 MiB (14%) doneArchiving file data: 670 MiB of 4453 MiB (15%) doneArchiving file data: 676 MiB of 4453 MiB (15%) doneArchiving file data: 681 MiB of 4453 MiB (15%) doneArchiving file data: 686 MiB of 4453 MiB (15%) doneArchiving file data: 691 MiB of 4453 MiB (15%) doneArchiving file data: 697 MiB of 4453 MiB (15%) doneArchiving file data: 702 MiB of 4453 MiB (15%) doneArchiving file data: 708 MiB of 4453 MiB (15%) doneArchiving file data: 713 MiB of 4453 MiB (16%) doneArchiving file data: 717 MiB of 4453 MiB (16%) doneArchiving file data: 722 MiB of 4453 MiB (16%) doneArchiving file data: 727 MiB of 4453 MiB (16%) doneArchiving file data: 732 MiB of 4453 MiB (16%) doneArchiving file data: 737 MiB of 4453 MiB (16%) doneArchiving file data: 742 MiB of 4453 MiB (16%) doneArchiving file data: 749 MiB of 4453 MiB (16%) doneArchiving file data: 754 MiB of 4453 MiB (16%) doneArchiving file data: 759 MiB of 4453 MiB (17%) doneArchiving file data: 765 MiB of 4453 MiB (17%) doneArchiving file data: 769 MiB of 4453 MiB (17%) doneArchiving file data: 775 MiB of 4453 MiB (17%) doneArchiving file data: 780 MiB of 4453 MiB (17%) doneArchiving file data: 785 MiB of 4453 MiB (17%) doneArchiving file data: 790 MiB of 4453 MiB (17%) doneArchiving file data: 798 MiB of 4453 MiB (17%) doneArchiving file data: 803 MiB of 4453 MiB (18%) doneArchiving file data: 809 MiB of 4453 MiB (18%) doneArchiving file data: 814 MiB of 4453 MiB (18%) doneArchiving file data: 818 MiB of 4453 MiB (18%) doneArchiving file data: 824 MiB of 4453 MiB (18%) doneArchiving file data: 829 MiB of 4453 MiB (18%) doneArchiving file data: 835 MiB of 4453 MiB (18%) doneArchiving file data: 840 MiB of 4453 MiB (18%) doneArchiving file data: 845 MiB of 4453 MiB (18%) doneArchiving file data: 850 MiB of 4453 MiB (19%) doneArchiving file data: 857 MiB of 4453 MiB (19%) doneArchiving file data: 862 MiB of 4453 MiB (19%) doneArchiving file data: 867 MiB of 4453 MiB (19%) doneArchiving file data: 873 MiB of 4453 MiB (19%) doneArchiving file data: 878 MiB of 4453 MiB (19%) doneArchiving file data: 883 MiB of 4453 MiB (19%) doneArchiving file data: 890 MiB of 4453 MiB (19%) doneArchiving file data: 895 MiB of 4453 MiB (20%) doneArchiving file data: 900 MiB of 4453 MiB (20%) doneArchiving file data: 905 MiB of 4453 MiB (20%) doneArchiving file data: 910 MiB of 4453 MiB (20%) doneArchiving file data: 914 MiB of 4453 MiB (20%) doneArchiving file data: 920 MiB of 4453 MiB (20%) doneArchiving file data: 926 MiB of 4453 MiB (20%) doneArchiving file data: 931 MiB of 4453 MiB (20%) doneArchiving file data: 936 MiB of 4453 MiB (21%) doneArchiving file data: 940 MiB of 4453 MiB (21%) doneArchiving file data: 945 MiB of 4453 MiB (21%) doneArchiving file data: 950 MiB of 4453 MiB (21%) doneArchiving file data: 957 MiB of 4453 MiB (21%) doneArchiving file data: 962 MiB of 4453 MiB (21%) doneArchiving file data: 969 MiB of 4453 MiB (21%) doneArchiving file data: 974 MiB of 4453 MiB (21%) doneArchiving file data: 979 MiB of 4453 MiB (21%) doneArchiving file data: 985 MiB of 4453 MiB (22%) doneArchiving file data: 991 MiB of 4453 MiB (22%) doneArchiving file data: 996 MiB of 4453 MiB (22%) doneArchiving file data: 1001 MiB of 4453 MiB (22%) doneArchiving file data: 1010 MiB of 4453 MiB (22%) doneArchiving file data: 1015 MiB of 4453 MiB (22%) doneArchiving file data: 1020 MiB of 4453 MiB (22%) doneArchiving file data: 1027 MiB of 4453 MiB (23%) doneArchiving file data: 1033 MiB of 4453 MiB (23%) doneArchiving file data: 1040 MiB of 4453 MiB (23%) doneArchiving file data: 1045 MiB of 4453 MiB (23%) doneArchiving file data: 1052 MiB of 4453 MiB (23%) doneArchiving file data: 1060 MiB of 4453 MiB (23%) doneArchiving file data: 1065 MiB of 4453 MiB (23%) doneArchiving file data: 1073 MiB of 4453 MiB (24%) doneArchiving file data: 1078 MiB of 4453 MiB (24%) doneArchiving file data: 1087 MiB of 4453 MiB (24%) doneArchiving file data: 1093 MiB of 4453 MiB (24%) doneArchiving file data: 1104 MiB of 4453 MiB (24%) doneArchiving file data: 1110 MiB of 4453 MiB (24%) doneArchiving file data: 1115 MiB of 4453 MiB (25%) doneArchiving file data: 1121 MiB of 4453 MiB (25%) doneArchiving file data: 1125 MiB of 4453 MiB (25%) doneArchiving file data: 1131 MiB of 4453 MiB (25%) doneArchiving file data: 1136 MiB of 4453 MiB (25%) doneArchiving file data: 1141 MiB of 4453 MiB (25%) doneArchiving file data: 1147 MiB of 4453 MiB (25%) doneArchiving file data: 1152 MiB of 4453 MiB (25%) doneArchiving file data: 1157 MiB of 4453 MiB (25%) doneArchiving file data: 1163 MiB of 4453 MiB (26%) doneArchiving file data: 1168 MiB of 4453 MiB (26%) doneArchiving file data: 1176 MiB of 4453 MiB (26%) doneArchiving file data: 1181 MiB of 4453 MiB (26%) doneArchiving file data: 1186 MiB of 4453 MiB (26%) doneArchiving file data: 1191 MiB of 4453 MiB (26%) doneArchiving file data: 1196 MiB of 4453 MiB (26%) doneArchiving file data: 1201 MiB of 4453 MiB (26%) doneArchiving file data: 1206 MiB of 4453 MiB (27%) doneArchiving file data: 1211 MiB of 4453 MiB (27%) doneArchiving file data: 1216 MiB of 4453 MiB (27%) doneArchiving file data: 1222 MiB of 4453 MiB (27%) doneArchiving file data: 1227 MiB of 4453 MiB (27%) doneArchiving file data: 1236 MiB of 4453 MiB (27%) doneArchiving file data: 1249 MiB of 4453 MiB (28%) doneArchiving file data: 1254 MiB of 4453 MiB (28%) doneArchiving file data: 1260 MiB of 4453 MiB (28%) doneArchiving file data: 1265 MiB of 4453 MiB (28%) doneArchiving file data: 1273 MiB of 4453 MiB (28%) doneArchiving file data: 1278 MiB of 4453 MiB (28%) doneArchiving file data: 1285 MiB of 4453 MiB (28%) doneArchiving file data: 1290 MiB of 4453 MiB (28%) doneArchiving file data: 1296 MiB of 4453 MiB (29%) doneArchiving file data: 1301 MiB of 4453 MiB (29%) doneArchiving file data: 1309 MiB of 4453 MiB (29%) doneArchiving file data: 1314 MiB of 4453 MiB (29%) doneArchiving file data: 1322 MiB of 4453 MiB (29%) doneArchiving file data: 1334 MiB of 4453 MiB (29%) doneArchiving file data: 1347 MiB of 4453 MiB (30%) doneArchiving file data: 1357 MiB of 4453 MiB (30%) doneArchiving file data: 1368 MiB of 4453 MiB (30%) doneArchiving file data: 1377 MiB of 4453 MiB (30%) doneArchiving file data: 1386 MiB of 4453 MiB (31%) doneArchiving file data: 1402 MiB of 4453 MiB (31%) doneArchiving file data: 1409 MiB of 4453 MiB (31%) doneArchiving file data: 1415 MiB of 4453 MiB (31%) doneArchiving file data: 1420 MiB of 4453 MiB (31%) doneArchiving file data: 1426 MiB of 4453 MiB (32%) doneArchiving file data: 1431 MiB of 4453 MiB (32%) doneArchiving file data: 1436 MiB of 4453 MiB (32%) doneArchiving file data: 1442 MiB of 4453 MiB (32%) doneArchiving file data: 1447 MiB of 4453 MiB (32%) doneArchiving file data: 1453 MiB of 4453 MiB (32%) doneArchiving file data: 1459 MiB of 4453 MiB (32%) doneArchiving file data: 1464 MiB of 4453 MiB (32%) doneArchiving file data: 1470 MiB of 4453 MiB (33%) doneArchiving file data: 1475 MiB of 4453 MiB (33%) doneArchiving file data: 1480 MiB of 4453 MiB (33%) doneArchiving file data: 1485 MiB of 4453 MiB (33%) doneArchiving file data: 1491 MiB of 4453 MiB (33%) doneArchiving file data: 1496 MiB of 4453 MiB (33%) doneArchiving file data: 1502 MiB of 4453 MiB (33%) doneArchiving file data: 1508 MiB of 4453 MiB (33%) doneArchiving file data: 1513 MiB of 4453 MiB (33%) doneArchiving file data: 1518 MiB of 4453 MiB (34%) doneArchiving file data: 1524 MiB of 4453 MiB (34%) doneArchiving file data: 1529 MiB of 4453 MiB (34%) doneArchiving file data: 1534 MiB of 4453 MiB (34%) doneArchiving file data: 1539 MiB of 4453 MiB (34%) doneArchiving file data: 1546 MiB of 4453 MiB (34%) doneArchiving file data: 1551 MiB of 4453 MiB (34%) doneArchiving file data: 1561 MiB of 4453 MiB (35%) doneArchiving file data: 1567 MiB of 4453 MiB (35%) doneArchiving file data: 1572 MiB of 4453 MiB (35%) doneArchiving file data: 1578 MiB of 4453 MiB (35%) doneArchiving file data: 1584 MiB of 4453 MiB (35%) doneArchiving file data: 1595 MiB of 4453 MiB (35%) doneArchiving file data: 1601 MiB of 4453 MiB (35%) doneArchiving file data: 1606 MiB of 4453 MiB (36%) doneArchiving file data: 1612 MiB of 4453 MiB (36%) doneArchiving file data: 1620 MiB of 4453 MiB (36%) doneArchiving file data: 1625 MiB of 4453 MiB (36%) doneArchiving file data: 1630 MiB of 4453 MiB (36%) doneArchiving file data: 1638 MiB of 4453 MiB (36%) doneArchiving file data: 1643 MiB of 4453 MiB (36%) doneArchiving file data: 1648 MiB of 4453 MiB (37%) doneArchiving file data: 1654 MiB of 4453 MiB (37%) doneArchiving file data: 1660 MiB of 4453 MiB (37%) doneArchiving file data: 1666 MiB of 4453 MiB (37%) doneArchiving file data: 1672 MiB of 4453 MiB (37%) doneArchiving file data: 1676 MiB of 4453 MiB (37%) doneArchiving file data: 1682 MiB of 4453 MiB (37%) doneArchiving file data: 1687 MiB of 4453 MiB (37%) doneArchiving file data: 1693 MiB of 4453 MiB (38%) doneArchiving file data: 1698 MiB of 4453 MiB (38%) doneArchiving file data: 1706 MiB of 4453 MiB (38%) doneArchiving file data: 1711 MiB of 4453 MiB (38%) doneArchiving file data: 1716 MiB of 4453 MiB (38%) doneArchiving file data: 1721 MiB of 4453 MiB (38%) doneArchiving file data: 1726 MiB of 4453 MiB (38%) doneArchiving file data: 1741 MiB of 4453 MiB (39%) doneArchiving file data: 1746 MiB of 4453 MiB (39%) doneArchiving file data: 1755 MiB of 4453 MiB (39%) doneArchiving file data: 1760 MiB of 4453 MiB (39%) doneArchiving file data: 1770 MiB of 4453 MiB (39%) doneArchiving file data: 1778 MiB of 4453 MiB (39%) doneArchiving file data: 1783 MiB of 4453 MiB (40%) doneArchiving file data: 1789 MiB of 4453 MiB (40%) doneArchiving file data: 1794 MiB of 4453 MiB (40%) doneArchiving file data: 1799 MiB of 4453 MiB (40%) doneArchiving file data: 1804 MiB of 4453 MiB (40%) doneArchiving file data: 1810 MiB of 4453 MiB (40%) doneArchiving file data: 1814 MiB of 4453 MiB (40%) doneArchiving file data: 1819 MiB of 4453 MiB (40%) doneArchiving file data: 1827 MiB of 4453 MiB (41%) doneArchiving file data: 1833 MiB of 4453 MiB (41%) doneArchiving file data: 1841 MiB of 4453 MiB (41%) doneArchiving file data: 1846 MiB of 4453 MiB (41%) doneArchiving file data: 1853 MiB of 4453 MiB (41%) doneArchiving file data: 1859 MiB of 4453 MiB (41%) doneArchiving file data: 1863 MiB of 4453 MiB (41%) doneArchiving file data: 1868 MiB of 4453 MiB (41%) doneArchiving file data: 1881 MiB of 4453 MiB (42%) doneArchiving file data: 1886 MiB of 4453 MiB (42%) doneArchiving file data: 1891 MiB of 4453 MiB (42%) doneArchiving file data: 1896 MiB of 4453 MiB (42%) doneArchiving file data: 1904 MiB of 4453 MiB (42%) doneArchiving file data: 1909 MiB of 4453 MiB (42%) doneArchiving file data: 1915 MiB of 4453 MiB (43%) doneArchiving file data: 1921 MiB of 4453 MiB (43%) doneArchiving file data: 1926 MiB of 4453 MiB (43%) doneArchiving file data: 1932 MiB of 4453 MiB (43%) doneArchiving file data: 1937 MiB of 4453 MiB (43%) doneArchiving file data: 1943 MiB of 4453 MiB (43%) doneArchiving file data: 1948 MiB of 4453 MiB (43%) doneArchiving file data: 1953 MiB of 4453 MiB (43%) doneArchiving file data: 1958 MiB of 4453 MiB (43%) doneArchiving file data: 1964 MiB of 4453 MiB (44%) doneArchiving file data: 1969 MiB of 4453 MiB (44%) doneArchiving file data: 1974 MiB of 4453 MiB (44%) doneArchiving file data: 1980 MiB of 4453 MiB (44%) doneArchiving file data: 1985 MiB of 4453 MiB (44%) doneArchiving file data: 1992 MiB of 4453 MiB (44%) doneArchiving file data: 1997 MiB of 4453 MiB (44%) doneArchiving file data: 2004 MiB of 4453 MiB (45%) doneArchiving file data: 2009 MiB of 4453 MiB (45%) doneArchiving file data: 2013 MiB of 4453 MiB (45%) doneArchiving file data: 2022 MiB of 4453 MiB (45%) doneArchiving file data: 2029 MiB of 4453 MiB (45%) doneArchiving file data: 2035 MiB of 4453 MiB (45%) doneArchiving file data: 2040 MiB of 4453 MiB (45%) doneArchiving file data: 2047 MiB of 4453 MiB (45%) doneArchiving file data: 2053 MiB of 4453 MiB (46%) doneArchiving file data: 2058 MiB of 4453 MiB (46%) doneArchiving file data: 2063 MiB of 4453 MiB (46%) doneArchiving file data: 2068 MiB of 4453 MiB (46%) doneArchiving file data: 2073 MiB of 4453 MiB (46%) doneArchiving file data: 2079 MiB of 4453 MiB (46%) doneArchiving file data: 2084 MiB of 4453 MiB (46%) doneArchiving file data: 2089 MiB of 4453 MiB (46%) doneArchiving file data: 2095 MiB of 4453 MiB (47%) doneArchiving file data: 2100 MiB of 4453 MiB (47%) doneArchiving file data: 2105 MiB of 4453 MiB (47%) doneArchiving file data: 2111 MiB of 4453 MiB (47%) doneArchiving file data: 2117 MiB of 4453 MiB (47%) doneArchiving file data: 2122 MiB of 4453 MiB (47%) doneArchiving file data: 2127 MiB of 4453 MiB (47%) doneArchiving file data: 2136 MiB of 4453 MiB (47%) doneArchiving file data: 2147 MiB of 4453 MiB (48%) doneArchiving file data: 2153 MiB of 4453 MiB (48%) doneArchiving file data: 2161 MiB of 4453 MiB (48%) doneArchiving file data: 2170 MiB of 4453 MiB (48%) doneArchiving file data: 2178 MiB of 4453 MiB (48%) doneArchiving file data: 2184 MiB of 4453 MiB (49%) doneArchiving file data: 2189 MiB of 4453 MiB (49%) doneArchiving file data: 2194 MiB of 4453 MiB (49%) doneArchiving file data: 2200 MiB of 4453 MiB (49%) doneArchiving file data: 2212 MiB of 4453 MiB (49%) doneArchiving file data: 2220 MiB of 4453 MiB (49%) doneArchiving file data: 2224 MiB of 4453 MiB (49%) doneArchiving file data: 2236 MiB of 4453 MiB (50%) doneArchiving file data: 2257 MiB of 4453 MiB (50%) doneArchiving file data: 2272 MiB of 4453 MiB (51%) doneArchiving file data: 2283 MiB of 4453 MiB (51%) doneArchiving file data: 2298 MiB of 4453 MiB (51%) doneArchiving file data: 2305 MiB of 4453 MiB (51%) doneArchiving file data: 2313 MiB of 4453 MiB (51%) doneArchiving file data: 2323 MiB of 4453 MiB (52%) doneArchiving file data: 2331 MiB of 4453 MiB (52%) doneArchiving file data: 2340 MiB of 4453 MiB (52%) doneArchiving file data: 2345 MiB of 4453 MiB (52%) doneArchiving file data: 2356 MiB of 4453 MiB (52%) doneArchiving file data: 2361 MiB of 4453 MiB (53%) doneArchiving file data: 2367 MiB of 4453 MiB (53%) doneArchiving file data: 2374 MiB of 4453 MiB (53%) doneArchiving file data: 2381 MiB of 4453 MiB (53%) doneArchiving file data: 2388 MiB of 4453 MiB (53%) doneArchiving file data: 2394 MiB of 4453 MiB (53%) doneArchiving file data: 2401 MiB of 4453 MiB (53%) doneArchiving file data: 2408 MiB of 4453 MiB (54%) doneArchiving file data: 2415 MiB of 4453 MiB (54%) doneArchiving file data: 2425 MiB of 4453 MiB (54%) doneArchiving file data: 2432 MiB of 4453 MiB (54%) doneArchiving file data: 2437 MiB of 4453 MiB (54%) doneArchiving file data: 2446 MiB of 4453 MiB (54%) doneArchiving file data: 2452 MiB of 4453 MiB (55%) doneArchiving file data: 2462 MiB of 4453 MiB (55%) doneArchiving file data: 2471 MiB of 4453 MiB (55%) doneArchiving file data: 2477 MiB of 4453 MiB (55%) doneArchiving file data: 2486 MiB of 4453 MiB (55%) doneArchiving file data: 2494 MiB of 4453 MiB (56%) doneArchiving file data: 2500 MiB of 4453 MiB (56%) doneArchiving file data: 2506 MiB of 4453 MiB (56%) doneArchiving file data: 2517 MiB of 4453 MiB (56%) doneArchiving file data: 2524 MiB of 4453 MiB (56%) doneArchiving file data: 2533 MiB of 4453 MiB (56%) doneArchiving file data: 2540 MiB of 4453 MiB (57%) doneArchiving file data: 2545 MiB of 4453 MiB (57%) doneArchiving file data: 2552 MiB of 4453 MiB (57%) doneArchiving file data: 2559 MiB of 4453 MiB (57%) doneArchiving file data: 2568 MiB of 4453 MiB (57%) doneArchiving file data: 2580 MiB of 4453 MiB (57%) doneArchiving file data: 2588 MiB of 4453 MiB (58%) doneArchiving file data: 2596 MiB of 4453 MiB (58%) doneArchiving file data: 2609 MiB of 4453 MiB (58%) doneArchiving file data: 2617 MiB of 4453 MiB (58%) doneArchiving file data: 2623 MiB of 4453 MiB (58%) doneArchiving file data: 2633 MiB of 4453 MiB (59%) doneArchiving file data: 2641 MiB of 4453 MiB (59%) doneArchiving file data: 2650 MiB of 4453 MiB (59%) doneArchiving file data: 2659 MiB of 4453 MiB (59%) doneArchiving file data: 2669 MiB of 4453 MiB (59%) doneArchiving file data: 2676 MiB of 4453 MiB (60%) doneArchiving file data: 2687 MiB of 4453 MiB (60%) doneArchiving file data: 2699 MiB of 4453 MiB (60%) doneArchiving file data: 2711 MiB of 4453 MiB (60%) doneArchiving file data: 2717 MiB of 4453 MiB (61%) doneArchiving file data: 2724 MiB of 4453 MiB (61%) doneArchiving file data: 2729 MiB of 4453 MiB (61%) doneArchiving file data: 2737 MiB of 4453 MiB (61%) doneArchiving file data: 2763 MiB of 4453 MiB (62%) doneArchiving file data: 2769 MiB of 4453 MiB (62%) doneArchiving file data: 2778 MiB of 4453 MiB (62%) doneArchiving file data: 2784 MiB of 4453 MiB (62%) doneArchiving file data: 2793 MiB of 4453 MiB (62%) doneArchiving file data: 2800 MiB of 4453 MiB (62%) doneArchiving file data: 2822 MiB of 4453 MiB (63%) doneArchiving file data: 2829 MiB of 4453 MiB (63%) doneArchiving file data: 2835 MiB of 4453 MiB (63%) doneArchiving file data: 2849 MiB of 4453 MiB (63%) doneArchiving file data: 2858 MiB of 4453 MiB (64%) doneArchiving file data: 2863 MiB of 4453 MiB (64%) doneArchiving file data: 2873 MiB of 4453 MiB (64%) doneArchiving file data: 2882 MiB of 4453 MiB (64%) doneArchiving file data: 2892 MiB of 4453 MiB (64%) doneArchiving file data: 2910 MiB of 4453 MiB (65%) doneArchiving file data: 2920 MiB of 4453 MiB (65%) doneArchiving file data: 2930 MiB of 4453 MiB (65%) doneArchiving file data: 2952 MiB of 4453 MiB (66%) doneArchiving file data: 2964 MiB of 4453 MiB (66%) doneArchiving file data: 2970 MiB of 4453 MiB (66%) doneArchiving file data: 2994 MiB of 4453 MiB (67%) doneArchiving file data: 3020 MiB of 4453 MiB (67%) doneArchiving file data: 3026 MiB of 4453 MiB (67%) doneArchiving file data: 3032 MiB of 4453 MiB (68%) doneArchiving file data: 3037 MiB of 4453 MiB (68%) doneArchiving file data: 3042 MiB of 4453 MiB (68%) doneArchiving file data: 3048 MiB of 4453 MiB (68%) doneArchiving file data: 3054 MiB of 4453 MiB (68%) doneArchiving file data: 3060 MiB of 4453 MiB (68%) doneArchiving file data: 3065 MiB of 4453 MiB (68%) doneArchiving file data: 3083 MiB of 4453 MiB (69%) doneArchiving file data: 3100 MiB of 4453 MiB (69%) doneArchiving file data: 3112 MiB of 4453 MiB (69%) doneArchiving file data: 3117 MiB of 4453 MiB (70%) doneArchiving file data: 3127 MiB of 4453 MiB (70%) doneArchiving file data: 3132 MiB of 4453 MiB (70%) doneArchiving file data: 3137 MiB of 4453 MiB (70%) doneArchiving file data: 3142 MiB of 4453 MiB (70%) doneArchiving file data: 3149 MiB of 4453 MiB (70%) doneArchiving file data: 3181 MiB of 4453 MiB (71%) doneArchiving file data: 3191 MiB of 4453 MiB (71%) doneArchiving file data: 3199 MiB of 4453 MiB (71%) doneArchiving file data: 3205 MiB of 4453 MiB (71%) doneArchiving file data: 3212 MiB of 4453 MiB (72%) doneArchiving file data: 3219 MiB of 4453 MiB (72%) doneArchiving file data: 3242 MiB of 4453 MiB (72%) doneArchiving file data: 3251 MiB of 4453 MiB (73%) doneArchiving file data: 3256 MiB of 4453 MiB (73%) doneArchiving file data: 3263 MiB of 4453 MiB (73%) doneArchiving file data: 3267 MiB of 4453 MiB (73%) doneArchiving file data: 3272 MiB of 4453 MiB (73%) doneArchiving file data: 3278 MiB of 4453 MiB (73%) doneArchiving file data: 3283 MiB of 4453 MiB (73%) doneArchiving file data: 3293 MiB of 4453 MiB (73%) doneArchiving file data: 3299 MiB of 4453 MiB (74%) doneArchiving file data: 3314 MiB of 4453 MiB (74%) doneArchiving file data: 3337 MiB of 4453 MiB (74%) doneArchiving file data: 3342 MiB of 4453 MiB (75%) doneArchiving file data: 3348 MiB of 4453 MiB (75%) doneArchiving file data: 3353 MiB of 4453 MiB (75%) doneArchiving file data: 3369 MiB of 4453 MiB (75%) doneArchiving file data: 3374 MiB of 4453 MiB (75%) doneArchiving file data: 3382 MiB of 4453 MiB (75%) doneArchiving file data: 3391 MiB of 4453 MiB (76%) doneArchiving file data: 3440 MiB of 4453 MiB (77%) doneArchiving file data: 3449 MiB of 4453 MiB (77%) doneArchiving file data: 3462 MiB of 4453 MiB (77%) doneArchiving file data: 3467 MiB of 4453 MiB (77%) doneArchiving file data: 3497 MiB of 4453 MiB (78%) doneArchiving file data: 3526 MiB of 4453 MiB (79%) doneArchiving file data: 3531 MiB of 4453 MiB (79%) doneArchiving file data: 3537 MiB of 4453 MiB (79%) doneArchiving file data: 3556 MiB of 4453 MiB (79%) doneArchiving file data: 3564 MiB of 4453 MiB (80%) doneArchiving file data: 3606 MiB of 4453 MiB (80%) doneArchiving file data: 3638 MiB of 4453 MiB (81%) doneArchiving file data: 3644 MiB of 4453 MiB (81%) doneArchiving file data: 3650 MiB of 4453 MiB (81%) doneArchiving file data: 3773 MiB of 4453 MiB (84%) doneArchiving file data: 3784 MiB of 4453 MiB (84%) doneArchiving file data: 3792 MiB of 4453 MiB (85%) doneArchiving file data: 3799 MiB of 4453 MiB (85%) doneArchiving file data: 3805 MiB of 4453 MiB (85%) doneArchiving file data: 3824 MiB of 4453 MiB (85%) doneArchiving file data: 3830 MiB of 4453 MiB (85%) doneArchiving file data: 3835 MiB of 4453 MiB (86%) doneArchiving file data: 3839 MiB of 4453 MiB (86%) doneArchiving file data: 3888 MiB of 4453 MiB (87%) doneArchiving file data: 3895 MiB of 4453 MiB (87%) doneArchiving file data: 3900 MiB of 4453 MiB (87%) doneArchiving file data: 3906 MiB of 4453 MiB (87%) doneArchiving file data: 3919 MiB of 4453 MiB (87%) doneArchiving file data: 3927 MiB of 4453 MiB (88%) doneArchiving file data: 3969 MiB of 4453 MiB (89%) doneArchiving file data: 3993 MiB of 4453 MiB (89%) doneArchiving file data: 4006 MiB of 4453 MiB (89%) doneArchiving file data: 4025 MiB of 4453 MiB (90%) doneArchiving file data: 4042 MiB of 4453 MiB (90%) doneArchiving file data: 4048 MiB of 4453 MiB (90%) doneArchiving file data: 4059 MiB of 4453 MiB (91%) doneArchiving file data: 4067 MiB of 4453 MiB (91%) doneArchiving file data: 4076 MiB of 4453 MiB (91%) doneArchiving file data: 4081 MiB of 4453 MiB (91%) doneArchiving file data: 4085 MiB of 4453 MiB (91%) doneArchiving file data: 4091 MiB of 4453 MiB (91%) doneArchiving file data: 4096 MiB of 4453 MiB (91%) doneArchiving file data: 4107 MiB of 4453 MiB (92%) doneArchiving file data: 4120 MiB of 4453 MiB (92%) doneArchiving file data: 4126 MiB of 4453 MiB (92%) doneArchiving file data: 4131 MiB of 4453 MiB (92%) doneArchiving file data: 4136 MiB of 4453 MiB (92%) doneArchiving file data: 4140 MiB of 4453 MiB (92%) doneArchiving file data: 4145 MiB of 4453 MiB (93%) doneArchiving file data: 4164 MiB of 4453 MiB (93%) doneArchiving file data: 4169 MiB of 4453 MiB (93%) doneArchiving file data: 4175 MiB of 4453 MiB (93%) doneArchiving file data: 4204 MiB of 4453 MiB (94%) doneArchiving file data: 4426 MiB of 4453 MiB (99%) doneArchiving file data: 4431 MiB of 4453 MiB (99%) doneArchiving file data: 4436 MiB of 4453 MiB (99%) doneArchiving file data: 4440 MiB of 4453 MiB (99%) doneArchiving file data: 4445 MiB of 4453 MiB (99%) doneArchiving file data: 4450 MiB of 4453 MiB (99%) doneArchiving file data: 4453 MiB of 4453 MiB (100%) done
+"D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\sources\boot.wim" optimized size: 1894286 KiB
+Space saved: 4517 KiB
+
+2024/04/07 13:11:36- FlushFileBuffers : 1
+2024/04/07 13:11:38- Extracting winpeshl.ini from boot.wim
+2024/04/07 13:11:38- Extracting file data: 110 bytes of 110 bytes (100%) done
+Done extracting files.
+
+2024/04/07 13:11:38- Updated WinPEShl.ini: 
+[LaunchApps]
+%systemdrive%\windows\WinPreSetup.exe, "/mountiso=WINSETUP\HIRON\HBCD_PE_x64.iso"
+wpeinit.exe
+
+
+2024/04/07 13:11:38- Element: path
+2024/04/07 13:11:38- Element: description
+2024/04/07 13:11:38- Element: locale
+2024/04/07 13:11:38- Element: inherit
+2024/04/07 13:11:38- Element: osdevice
+2024/04/07 13:11:38- Element: systemroot
+2024/04/07 13:11:38- Element: bootmenupolicy
+2024/04/07 13:11:38- Element: detecthal
+2024/04/07 13:11:38- Element: winpe
+2024/04/07 13:11:38- Element: ems
+2024/04/07 13:11:38- BCDCumul: \sources\boot.wim|\WINSETUP\HIRON\sources\boot.wim|HIRON-OS-RKP
+
+2024/04/07 13:11:39- 
+Windows Boot Loader
+-------------------
+identifier              {7619dcc9-fafe-11d9-b411-000476eba25f}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             HBCD_PE x64
+locale                  en-US
+inherit                 {6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:11:39- Processing GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:39- Parsing D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd for GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:39- 
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             HBCD_PE x64
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:11:39- Element: identifier
+2024/04/07 13:11:39- Element: device
+2024/04/07 13:11:39- Updating GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:39- Updating device from \sources\boot.wim to \WINSETUP\HIRON\sources\boot.wim
+2024/04/07 13:11:40- The operation completed successfully.
+
+2024/04/07 13:11:40- FlushFileBuffers : 1
+2024/04/07 13:11:40- Updating description to HIRON-OS-RKP
+2024/04/07 13:11:40- The operation completed successfully.
+
+2024/04/07 13:11:40- FlushFileBuffers : 1
+2024/04/07 13:11:41- Element: path
+2024/04/07 13:11:41- Element: description
+2024/04/07 13:11:41- Element: locale
+2024/04/07 13:11:41- Element: inherit
+2024/04/07 13:11:41- Element: osdevice
+2024/04/07 13:11:41- Updating GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:41- Updating osdevice from \sources\boot.wim to \WINSETUP\HIRON\sources\boot.wim
+2024/04/07 13:11:41- The operation completed successfully.
+
+2024/04/07 13:11:41- FlushFileBuffers : 1
+2024/04/07 13:11:42- Updating description to HIRON-OS-RKP
+2024/04/07 13:11:42- The operation completed successfully.
+
+2024/04/07 13:11:42- FlushFileBuffers : 1
+2024/04/07 13:11:43- Element: systemroot
+2024/04/07 13:11:43- Element: bootmenupolicy
+2024/04/07 13:11:43- Element: detecthal
+2024/04/07 13:11:43- Element: winpe
+2024/04/07 13:11:43- Element: ems
+2024/04/07 13:11:43- Updating BCD store in F:\boot\bcd
+2024/04/07 13:11:43- Adding elements of GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:43- Creating new entry
+2024/04/07 13:11:43- The entry {0cda61b2-f51b-11ee-a83c-7446a0b0092b} was successfully created.
+
+2024/04/07 13:11:43- FlushFileBuffers : 1
+2024/04/07 13:11:43- New GUID: {0cda61b2-f51b-11ee-a83c-7446a0b0092b}
+2024/04/07 13:11:43- Parsing D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd for GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:44- 
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             HIRON-OS-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:11:44- Parsed BCD store:
+2024/04/07 13:11:44- 
+Element: identifier   value: {default}
+Element: device   value: ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+Element: path   value: \windows\system32\boot\winload.exe
+Element: description   value: HIRON-OS-RKP
+Element: locale   value: en-US
+Element: inherit   value: {bootloadersettings}
+Element: osdevice   value: ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+Element: systemroot   value: \windows
+Element: bootmenupolicy   value: Legacy
+Element: detecthal   value: Yes
+Element: winpe   value: Yes
+Element: ems   value: No
+
+2024/04/07 13:11:44- Adding element: device value: ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:44- The operation completed successfully.
+
+2024/04/07 13:11:44- FlushFileBuffers : 1
+2024/04/07 13:11:44- Adding element: path value: \windows\system32\boot\winload.exe
+2024/04/07 13:11:45- The operation completed successfully.
+
+2024/04/07 13:11:45- FlushFileBuffers : 1
+2024/04/07 13:11:45- Adding element: description value: HIRON-OS-RKP
+2024/04/07 13:11:45- The operation completed successfully.
+
+2024/04/07 13:11:45- FlushFileBuffers : 1
+2024/04/07 13:11:46- Adding element: locale value: en-US
+2024/04/07 13:11:46- The operation completed successfully.
+
+2024/04/07 13:11:46- FlushFileBuffers : 1
+2024/04/07 13:11:46- Adding element: inherit value: {bootloadersettings}
+2024/04/07 13:11:46- The operation completed successfully.
+
+2024/04/07 13:11:46- FlushFileBuffers : 1
+2024/04/07 13:11:47- Adding element: osdevice value: ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:47- The operation completed successfully.
+
+2024/04/07 13:11:47- FlushFileBuffers : 1
+2024/04/07 13:11:47- Adding element: systemroot value: \windows
+2024/04/07 13:11:47- The operation completed successfully.
+
+2024/04/07 13:11:47- FlushFileBuffers : 1
+2024/04/07 13:11:48- Adding element: bootmenupolicy value: Legacy
+2024/04/07 13:11:48- The operation completed successfully.
+
+2024/04/07 13:11:48- FlushFileBuffers : 1
+2024/04/07 13:11:48- Adding element: detecthal value: Yes
+2024/04/07 13:11:49- The operation completed successfully.
+
+2024/04/07 13:11:49- FlushFileBuffers : 1
+2024/04/07 13:11:49- Adding element: winpe value: Yes
+2024/04/07 13:11:49- The operation completed successfully.
+
+2024/04/07 13:11:49- FlushFileBuffers : 1
+2024/04/07 13:11:50- Adding element: ems value: No
+2024/04/07 13:11:50- The operation completed successfully.
+
+2024/04/07 13:11:50- FlushFileBuffers : 1
+2024/04/07 13:11:50- Adding it as last in display order
+2024/04/07 13:11:50- The operation completed successfully.
+
+2024/04/07 13:11:50- FlushFileBuffers : 1
+2024/04/07 13:11:51- Setting global ems
+2024/04/07 13:11:51- The operation completed successfully.
+
+2024/04/07 13:11:51- FlushFileBuffers : 1
+2024/04/07 13:11:51- Final BCD store F:\boot\bcd
+
+
+2024/04/07 13:11:52- 
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {globalsettings}
+default                 {ntldr}
+displayorder            {ntldr}
+                        {7619dcc9-fafe-11d9-b411-000476eba25f}
+                        {b9dd4c92-f514-11ee-a838-7446a0b0092b}
+                        {0cda61b2-f51b-11ee-a83c-7446a0b0092b}
+toolsdisplayorder       {memdiag}
+timeout                 30
+
+Windows Boot Loader
+-------------------
+identifier              {0cda61b2-f51b-11ee-a83c-7446a0b0092b}
+device                  ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             HIRON-OS-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Boot Loader
+-------------------
+identifier              {7619dcc9-fafe-11d9-b411-000476eba25f}
+device                  ramdisk=[boot]\WINSETUP\Pendriv\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             Windows-10-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\WINSETUP\Pendriv\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Boot Loader
+-------------------
+identifier              {b9dd4c92-f514-11ee-a838-7446a0b0092b}
+device                  ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             HiRON-OS-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Memory Tester
+---------------------
+identifier              {memdiag}
+device                  boot
+path                    \boot\memtest.exe
+description             Windows Memory Diagnostic
+locale                  en-US
+inherit                 {globalsettings}
+
+Windows Legacy OS Loader
+------------------------
+identifier              {ntldr}
+device                  boot
+path                    \grldr
+description             ...Back to Main Menu(Grub4dos)
+
+EMS Settings
+------------
+identifier              {emssettings}
+bootems                 Yes
+
+Debugger Settings
+-----------------
+identifier              {dbgsettings}
+debugtype               Serial
+debugport               1
+baudrate                115200
+
+Global Settings
+---------------
+identifier              {globalsettings}
+inherit                 {dbgsettings}
+                        {emssettings}
+
+Boot Loader Settings
+--------------------
+identifier              {bootloadersettings}
+inherit                 {globalsettings}
+                        {hypervisorsettings}
+
+Hypervisor Settings
+-------------------
+identifier              {hypervisorsettings}
+description             Hypervisor Settings
+hypervisordebugtype     Serial
+hypervisordebugport     1
+hypervisorbaudrate      115200
+
+Device options
+--------------
+identifier              {7619dcc8-fafe-11d9-b411-000476eba25f}
+ramdisksdidevice        boot
+ramdisksdipath          \boot\boot.sdi
+
+2024/04/07 13:11:52- 
+Windows Boot Loader
+-------------------
+identifier              {7619dcc9-fafe-11d9-b411-000476eba25f}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             HBCD_PE x64 UEFI
+locale                  en-US
+inherit                 {6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:11:52- Processing GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:52- Parsing D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd for GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:53- 
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             HBCD_PE x64 UEFI
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:11:53- Element: identifier
+2024/04/07 13:11:53- Element: device
+2024/04/07 13:11:53- Updating GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:53- Updating device from \sources\boot.wim to \WINSETUP\HIRON\sources\boot.wim
+2024/04/07 13:11:53- The operation completed successfully.
+
+2024/04/07 13:11:53- FlushFileBuffers : 1
+2024/04/07 13:11:54- Updating description to HIRON-OS-RKP
+2024/04/07 13:11:54- The operation completed successfully.
+
+2024/04/07 13:11:54- FlushFileBuffers : 1
+2024/04/07 13:11:55- Element: path
+2024/04/07 13:11:55- Element: description
+2024/04/07 13:11:55- Element: locale
+2024/04/07 13:11:55- Element: inherit
+2024/04/07 13:11:55- Element: isolatedcontext
+2024/04/07 13:11:55- Element: osdevice
+2024/04/07 13:11:55- Updating GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:55- Updating osdevice from \sources\boot.wim to \WINSETUP\HIRON\sources\boot.wim
+2024/04/07 13:11:55- The operation completed successfully.
+
+2024/04/07 13:11:55- FlushFileBuffers : 1
+2024/04/07 13:11:56- Updating description to HIRON-OS-RKP
+2024/04/07 13:11:56- The operation completed successfully.
+
+2024/04/07 13:11:56- FlushFileBuffers : 1
+2024/04/07 13:11:57- Element: systemroot
+2024/04/07 13:11:57- Element: bootmenupolicy
+2024/04/07 13:11:57- Element: detecthal
+2024/04/07 13:11:57- Element: winpe
+2024/04/07 13:11:57- Element: ems
+2024/04/07 13:11:57- Updating BCD store in F:\efi\microsoft\boot\bcd
+2024/04/07 13:11:57- Adding elements of GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:57- Creating new entry
+2024/04/07 13:11:57- The entry {152b3264-f51b-11ee-a83c-7446a0b0092b} was successfully created.
+
+2024/04/07 13:11:57- FlushFileBuffers : 1
+2024/04/07 13:11:57- New GUID: {152b3264-f51b-11ee-a83c-7446a0b0092b}
+2024/04/07 13:11:57- Parsing D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd for GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:58- 
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             HIRON-OS-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:11:58- Parsed BCD store:
+2024/04/07 13:11:58- 
+Element: identifier   value: {default}
+Element: device   value: ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+Element: path   value: \windows\system32\boot\winload.efi
+Element: description   value: HIRON-OS-RKP
+Element: locale   value: en-US
+Element: inherit   value: {bootloadersettings}
+Element: isolatedcontext   value: Yes
+Element: osdevice   value: ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+Element: systemroot   value: \windows
+Element: bootmenupolicy   value: Legacy
+Element: detecthal   value: Yes
+Element: winpe   value: Yes
+Element: ems   value: No
+
+2024/04/07 13:11:58- Adding element: device value: ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:11:58- The operation completed successfully.
+
+2024/04/07 13:11:58- FlushFileBuffers : 1
+2024/04/07 13:11:58- Adding element: path value: \windows\system32\boot\winload.efi
+2024/04/07 13:11:59- The operation completed successfully.
+
+2024/04/07 13:11:59- FlushFileBuffers : 1
+2024/04/07 13:11:59- Adding element: description value: HIRON-OS-RKP
+2024/04/07 13:11:59- The operation completed successfully.
+
+2024/04/07 13:11:59- FlushFileBuffers : 1
+2024/04/07 13:12:00- Adding element: locale value: en-US
+2024/04/07 13:12:00- The operation completed successfully.
+
+2024/04/07 13:12:00- FlushFileBuffers : 1
+2024/04/07 13:12:00- Adding element: inherit value: {bootloadersettings}
+2024/04/07 13:12:00- The operation completed successfully.
+
+2024/04/07 13:12:00- FlushFileBuffers : 1
+2024/04/07 13:12:01- Adding element: isolatedcontext value: Yes
+2024/04/07 13:12:01- The operation completed successfully.
+
+2024/04/07 13:12:01- FlushFileBuffers : 1
+2024/04/07 13:12:01- Adding element: osdevice value: ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:12:02- The operation completed successfully.
+
+2024/04/07 13:12:02- FlushFileBuffers : 1
+2024/04/07 13:12:02- Adding element: systemroot value: \windows
+2024/04/07 13:12:02- The operation completed successfully.
+
+2024/04/07 13:12:02- FlushFileBuffers : 1
+2024/04/07 13:12:02- Adding element: bootmenupolicy value: Legacy
+2024/04/07 13:12:03- The operation completed successfully.
+
+2024/04/07 13:12:03- FlushFileBuffers : 1
+2024/04/07 13:12:03- Adding element: detecthal value: Yes
+2024/04/07 13:12:03- The operation completed successfully.
+
+2024/04/07 13:12:03- FlushFileBuffers : 1
+2024/04/07 13:12:04- Adding element: winpe value: Yes
+2024/04/07 13:12:04- The operation completed successfully.
+
+2024/04/07 13:12:04- FlushFileBuffers : 1
+2024/04/07 13:12:04- Adding element: ems value: No
+2024/04/07 13:12:04- The operation completed successfully.
+
+2024/04/07 13:12:04- FlushFileBuffers : 1
+2024/04/07 13:12:05- Adding it as last in display order
+2024/04/07 13:12:05- The operation completed successfully.
+
+2024/04/07 13:12:05- FlushFileBuffers : 1
+2024/04/07 13:12:05- Setting global ems
+2024/04/07 13:12:06- The operation completed successfully.
+
+2024/04/07 13:12:06- FlushFileBuffers : 1
+2024/04/07 13:12:06- Final BCD store F:\efi\microsoft\boot\bcd
+
+
+2024/04/07 13:12:06- 
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {globalsettings}
+default                 {default}
+displayorder            {default}
+                        {c217dd5a-f514-11ee-a838-7446a0b0092b}
+                        {152b3264-f51b-11ee-a83c-7446a0b0092b}
+toolsdisplayorder       {memdiag}
+timeout                 30
+
+Windows Boot Loader
+-------------------
+identifier              {152b3264-f51b-11ee-a83c-7446a0b0092b}
+device                  ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             HIRON-OS-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\WINSETUP\Pendriv\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             Windows-10-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\WINSETUP\Pendriv\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Boot Loader
+-------------------
+identifier              {c217dd5a-f514-11ee-a838-7446a0b0092b}
+device                  ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             HiRON-OS-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Memory Tester
+---------------------
+identifier              {memdiag}
+device                  boot
+path                    \efi\microsoft\boot\memtest.efi
+description             Windows Memory Diagnostic
+locale                  en-US
+inherit                 {globalsettings}
+
+EMS Settings
+------------
+identifier              {emssettings}
+bootems                 Yes
+
+Debugger Settings
+-----------------
+identifier              {dbgsettings}
+debugtype               Serial
+debugport               1
+baudrate                115200
+
+Global Settings
+---------------
+identifier              {globalsettings}
+inherit                 {dbgsettings}
+                        {emssettings}
+
+Boot Loader Settings
+--------------------
+identifier              {bootloadersettings}
+inherit                 {globalsettings}
+                        {hypervisorsettings}
+
+Hypervisor Settings
+-------------------
+identifier              {hypervisorsettings}
+description             Hypervisor Settings
+hypervisordebugtype     Serial
+hypervisordebugport     1
+hypervisorbaudrate      115200
+
+Device options
+--------------
+identifier              {7619dcc8-fafe-11d9-b411-000476eba25f}
+ramdisksdidevice        boot
+ramdisksdipath          \boot\boot.sdi
+
+2024/04/07 13:12:06- Copying started
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\BOOTMGR---> F:\BOOTMGR
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd---> F:\boot\bcd
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd.LOG---> F:\boot\bcd.LOG
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd.LOG1---> F:\boot\bcd.LOG1
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd.LOG2---> F:\boot\bcd.LOG2
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\boot.sdi---> F:\boot\boot.sdi
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bootsect.exe---> F:\boot\bootsect.exe
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\en-US\bootmgr.exe.mui---> F:\boot\en-US\bootmgr.exe.mui
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\en-US\bootsect.exe.mui---> F:\boot\en-US\bootsect.exe.mui
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\en-US\memtest.exe.mui---> F:\boot\en-US\memtest.exe.mui
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\etfsboot.com---> F:\boot\etfsboot.com
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\chs_boot.ttf---> F:\boot\Fonts\chs_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\cht_boot.ttf---> F:\boot\Fonts\cht_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\jpn_boot.ttf---> F:\boot\Fonts\jpn_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\kor_boot.ttf---> F:\boot\Fonts\kor_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\malgun_boot.ttf---> F:\boot\Fonts\malgun_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\malgunn_boot.ttf---> F:\boot\Fonts\malgunn_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\meiryo_boot.ttf---> F:\boot\Fonts\meiryo_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\meiryon_boot.ttf---> F:\boot\Fonts\meiryon_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\msjh_boot.ttf---> F:\boot\Fonts\msjh_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\msjhn_boot.ttf---> F:\boot\Fonts\msjhn_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\msyh_boot.ttf---> F:\boot\Fonts\msyh_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\msyhn_boot.ttf---> F:\boot\Fonts\msyhn_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\segmono_boot.ttf---> F:\boot\Fonts\segmono_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\segoe_slboot.ttf---> F:\boot\Fonts\segoe_slboot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\segoen_slboot.ttf---> F:\boot\Fonts\segoen_slboot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\Fonts\wgl4_boot.ttf---> F:\boot\Fonts\wgl4_boot.ttf
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\memtest.exe---> F:\boot\memtest.exe
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:06- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\boot\bootx64.efi---> F:\efi\boot\bootx64.efi
+2024/04/07 13:12:06- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\boot\en-US\bootx64.efi.mui---> F:\efi\boot\en-US\bootx64.efi.mui
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd---> F:\efi\microsoft\boot\bcd
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd.LOG---> F:\efi\microsoft\boot\bcd.LOG
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd.LOG1---> F:\efi\microsoft\boot\bcd.LOG1
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd.LOG2---> F:\efi\microsoft\boot\bcd.LOG2
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\efisys.bin---> F:\efi\microsoft\boot\efisys.bin
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\en-US\bootmgr.efi.mui---> F:\efi\microsoft\boot\en-US\bootmgr.efi.mui
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\en-US\memtest.efi.mui---> F:\efi\microsoft\boot\en-US\memtest.efi.mui
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\chs_boot.ttf---> F:\efi\microsoft\boot\fonts\chs_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\cht_boot.ttf---> F:\efi\microsoft\boot\fonts\cht_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\jpn_boot.ttf---> F:\efi\microsoft\boot\fonts\jpn_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\kor_boot.ttf---> F:\efi\microsoft\boot\fonts\kor_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\malgun_boot.ttf---> F:\efi\microsoft\boot\fonts\malgun_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\malgunn_boot.ttf---> F:\efi\microsoft\boot\fonts\malgunn_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\meiryo_boot.ttf---> F:\efi\microsoft\boot\fonts\meiryo_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\meiryon_boot.ttf---> F:\efi\microsoft\boot\fonts\meiryon_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\msjh_boot.ttf---> F:\efi\microsoft\boot\fonts\msjh_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\msjhn_boot.ttf---> F:\efi\microsoft\boot\fonts\msjhn_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\msyh_boot.ttf---> F:\efi\microsoft\boot\fonts\msyh_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\msyhn_boot.ttf---> F:\efi\microsoft\boot\fonts\msyhn_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\segmono_boot.ttf---> F:\efi\microsoft\boot\fonts\segmono_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\segoe_slboot.ttf---> F:\efi\microsoft\boot\fonts\segoe_slboot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\segoen_slboot.ttf---> F:\efi\microsoft\boot\fonts\segoen_slboot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\wgl4_boot.ttf---> F:\efi\microsoft\boot\fonts\wgl4_boot.ttf
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\memtest.efi---> F:\efi\microsoft\boot\memtest.efi
+2024/04/07 13:12:07- File exists, skipping
+2024/04/07 13:12:07- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\sources\boot.wim---> F:\WINSETUP\HIRON\sources\boot.wim
+2024/04/07 13:17:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\gpl.txt---> F:\WINSETUP\imdisk\gpl.txt
+2024/04/07 13:17:31- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\imdisk.inf---> F:\WINSETUP\imdisk\imdisk.inf
+2024/04/07 13:17:32- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\install.cmd---> F:\WINSETUP\imdisk\install.cmd
+2024/04/07 13:17:33- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\msgboxw.exe---> F:\WINSETUP\imdisk\msgboxw.exe
+2024/04/07 13:17:34- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\readme.txt---> F:\WINSETUP\imdisk\readme.txt
+2024/04/07 13:17:35- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\runwaitw.exe---> F:\WINSETUP\imdisk\runwaitw.exe
+2024/04/07 13:17:36- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\uninstall_imdisk.cmd---> F:\WINSETUP\imdisk\uninstall_imdisk.cmd
+2024/04/07 13:17:37- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\awealloc\amd64\awealloc.sys---> F:\WINSETUP\imdisk\awealloc\amd64\awealloc.sys
+2024/04/07 13:17:38- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\awealloc\ARM\awealloc.sys---> F:\WINSETUP\imdisk\awealloc\ARM\awealloc.sys
+2024/04/07 13:17:38- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\awealloc\ARM64\awealloc.sys---> F:\WINSETUP\imdisk\awealloc\ARM64\awealloc.sys
+2024/04/07 13:17:38- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\awealloc\i386\awealloc.sys---> F:\WINSETUP\imdisk\awealloc\i386\awealloc.sys
+2024/04/07 13:17:38- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\awealloc\ia64\awealloc.sys---> F:\WINSETUP\imdisk\awealloc\ia64\awealloc.sys
+2024/04/07 13:17:38- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cli\amd64\imdisk.exe---> F:\WINSETUP\imdisk\cli\amd64\imdisk.exe
+2024/04/07 13:17:39- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cli\ARM\imdisk.exe---> F:\WINSETUP\imdisk\cli\ARM\imdisk.exe
+2024/04/07 13:17:39- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cli\ARM64\imdisk.exe---> F:\WINSETUP\imdisk\cli\ARM64\imdisk.exe
+2024/04/07 13:17:39- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cli\i386\imdisk.exe---> F:\WINSETUP\imdisk\cli\i386\imdisk.exe
+2024/04/07 13:17:39- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cli\ia64\imdisk.exe---> F:\WINSETUP\imdisk\cli\ia64\imdisk.exe
+2024/04/07 13:17:39- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cpl\amd64\imdisk.cpl---> F:\WINSETUP\imdisk\cpl\amd64\imdisk.cpl
+2024/04/07 13:17:39- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cpl\ARM\imdisk.cpl---> F:\WINSETUP\imdisk\cpl\ARM\imdisk.cpl
+2024/04/07 13:17:40- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cpl\ARM64\imdisk.cpl---> F:\WINSETUP\imdisk\cpl\ARM64\imdisk.cpl
+2024/04/07 13:17:40- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cpl\i386\imdisk.cpl---> F:\WINSETUP\imdisk\cpl\i386\imdisk.cpl
+2024/04/07 13:17:40- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cpl\ia64\imdisk.cpl---> F:\WINSETUP\imdisk\cpl\ia64\imdisk.cpl
+2024/04/07 13:17:40- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cpl\imdisk.cpl.manifest---> F:\WINSETUP\imdisk\cpl\imdisk.cpl.manifest
+2024/04/07 13:17:40- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cplcore\amd64\imdisk.cpl---> F:\WINSETUP\imdisk\cplcore\amd64\imdisk.cpl
+2024/04/07 13:17:41- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cplcore\ARM\imdisk.cpl---> F:\WINSETUP\imdisk\cplcore\ARM\imdisk.cpl
+2024/04/07 13:17:41- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cplcore\ARM64\imdisk.cpl---> F:\WINSETUP\imdisk\cplcore\ARM64\imdisk.cpl
+2024/04/07 13:17:41- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cplcore\i386\imdisk.cpl---> F:\WINSETUP\imdisk\cplcore\i386\imdisk.cpl
+2024/04/07 13:17:41- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\cplcore\ia64\imdisk.cpl---> F:\WINSETUP\imdisk\cplcore\ia64\imdisk.cpl
+2024/04/07 13:17:41- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\amd64\devio.exe---> F:\WINSETUP\imdisk\devio\amd64\devio.exe
+2024/04/07 13:17:41- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\amd64\libsmraw.dll---> F:\WINSETUP\imdisk\devio\amd64\libsmraw.dll
+2024/04/07 13:17:42- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\amd64\libsmraw_devio.dll---> F:\WINSETUP\imdisk\devio\amd64\libsmraw_devio.dll
+2024/04/07 13:17:42- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\amd64\libvmdk.dll---> F:\WINSETUP\imdisk\devio\amd64\libvmdk.dll
+2024/04/07 13:17:42- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\amd64\libvmdk_devio.dll---> F:\WINSETUP\imdisk\devio\amd64\libvmdk_devio.dll
+2024/04/07 13:17:42- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\amd64\zlib.dll---> F:\WINSETUP\imdisk\devio\amd64\zlib.dll
+2024/04/07 13:17:42- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\i386\devio.exe---> F:\WINSETUP\imdisk\devio\i386\devio.exe
+2024/04/07 13:17:43- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\i386\libsmraw.dll---> F:\WINSETUP\imdisk\devio\i386\libsmraw.dll
+2024/04/07 13:17:43- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\i386\libsmraw_devio.dll---> F:\WINSETUP\imdisk\devio\i386\libsmraw_devio.dll
+2024/04/07 13:17:43- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\i386\libvmdk.dll---> F:\WINSETUP\imdisk\devio\i386\libvmdk.dll
+2024/04/07 13:17:43- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\devio\i386\libvmdk_devio.dll---> F:\WINSETUP\imdisk\devio\i386\libvmdk_devio.dll
+2024/04/07 13:17:43- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\svc\amd64\imdsksvc.exe---> F:\WINSETUP\imdisk\svc\amd64\imdsksvc.exe
+2024/04/07 13:17:44- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\svc\ARM\imdsksvc.exe---> F:\WINSETUP\imdisk\svc\ARM\imdsksvc.exe
+2024/04/07 13:17:44- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\svc\ARM64\imdsksvc.exe---> F:\WINSETUP\imdisk\svc\ARM64\imdsksvc.exe
+2024/04/07 13:17:44- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\svc\i386\imdsksvc.exe---> F:\WINSETUP\imdisk\svc\i386\imdsksvc.exe
+2024/04/07 13:17:44- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\svc\ia64\imdsksvc.exe---> F:\WINSETUP\imdisk\svc\ia64\imdsksvc.exe
+2024/04/07 13:17:44- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\sys\amd64\imdisk.sys---> F:\WINSETUP\imdisk\sys\amd64\imdisk.sys
+2024/04/07 13:17:44- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\sys\ARM\imdisk.sys---> F:\WINSETUP\imdisk\sys\ARM\imdisk.sys
+2024/04/07 13:17:45- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\sys\ARM64\imdisk.sys---> F:\WINSETUP\imdisk\sys\ARM64\imdisk.sys
+2024/04/07 13:17:45- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\sys\i386\imdisk.sys---> F:\WINSETUP\imdisk\sys\i386\imdisk.sys
+2024/04/07 13:17:45- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\files\imdisk\sys\ia64\imdisk.sys---> F:\WINSETUP\imdisk\sys\ia64\imdisk.sys
+2024/04/07 13:17:45- D:\All ISO IMAGE\HBCD_PE_x64.iso---> F:\WINSETUP\HIRON\HBCD_PE_x64.iso
+2024/04/07 13:26:41- FlushFileBuffers : 1
+2024/04/07 13:26:41- Copying completed. Took: 875.04 seconds
+2024/04/07 13:26:41- Checking bootmgr versions
+2024/04/07 13:26:41- Source BIOS bootmgr modify date: 20230930232418
+2024/04/07 13:26:41- Existing BIOS bootmgr modify date: 20230930232418
+2024/04/07 13:26:41- Source bootx64.efi modify date: 20230930232748
+2024/04/07 13:26:41- Existing bootx64.efi modify date: 20230930232748
+2024/04/07 13:26:41- Deleting TEMP folder
+2024/04/07 13:26:41- FlushFileBuffers : 1
+2024/04/07 13:29:10- Checking sizes...
+2024/04/07 13:29:10- Total source size- 0 bytes
+2024/04/07 13:29:10- Target space available- 47.9 GB
+2024/04/07 13:29:10- Getting USB drives information
+2024/04/07 13:29:10- Show all drives option is NOT selected, displaying USB drives only
+2024/04/07 13:29:11-   HP USB Flash Drive USB Device
+2024/04/07 13:29:11- 	DeviceID: \\.\PHYSICALDRIVE2
+2024/04/07 13:29:11- 	PNPDeviceID: USBSTOR\DISK&VEN_HP&PROD_USB_FLASH_DRIVE&REV_PMAP\07082AB332AEDB02&0
+2024/04/07 13:29:11- 	DiskSize: 57.7 GB Signature: 4F1ADF89
+2024/04/07 13:29:11- 	Partitions found: 1  MediaType: Removable Media
+2024/04/07 13:29:11- 		Disk--Partition: Disk #2, Partition #0
+2024/04/07 13:29:11- 			Logical Disk:F:  File system:FAT32 Primary:True  Bootable:True
+2024/04/07 13:29:11- 			FreeSpace: 43.0 GB Partition Size: 57.7 GB
+2024/04/07 13:29:11- 			Partition Starting Offset: 8257536
+2024/04/07 13:29:11- Drive letter of the selected partition- F:
+2024/04/07 13:29:11- Drive letter of the first primary partition in selected disk- F:
+2024/04/07 13:29:11- Disk number of the selected disk- 2
+2024/04/07 13:29:11- PNPId of the selected disk- USBSTOR\DISK&VEN_HP&PROD_USB_FLASH_DRIVE&REV_PMAP\07082AB332AEDB02&0
+2024/04/07 13:29:11- File system type of the selected partition- FAT32
+2024/04/07 13:29:11- Disk type of the selected disk- Removable
+2024/04/07 13:29:11- Total target space available- 46253899776 bytes ( 43.0 GB )
+2024/04/07 13:29:11- Checking sizes...
+2024/04/07 13:29:11- Total source size- 0 bytes
+2024/04/07 13:29:11- Target space available- 43.0 GB
+2024/04/07 13:29:12- Checking sizes...
+2024/04/07 13:29:12- Total source size- 0 bytes
+2024/04/07 13:29:12- Target space available- 43.0 GB
+2024/04/07 13:29:16- Checking for boot files
+2024/04/07 13:29:16- 
+7-Zip 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+Listing archive: D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+
+--
+Path = D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+Type = Udf
+Comment = ESD-ISO
+Cluster Size = 2048
+Created = 2023-01-07 07:05:34
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2022-09-08 01:07:17 .....        16384        16384  boot\bcd
+2022-09-08 01:07:17 .....       413738       415744  bootmgr
+------------------- ----- ------------ ------------  ------------------------
+                                430122       432128  2 files, 0 folders
+
+2024/04/07 13:29:16- Checking sizes...
+2024/04/07 13:29:16- File is too large for FAT32 partition, filesize: 4783996928 Splitting it.
+2024/04/07 13:29:16- Total source size- 4.84 GB
+2024/04/07 13:29:16- Target space available- 43.0 GB
+2024/04/07 13:29:16- Vista/7/8/10/Server 2008/2012/2016 source selected- D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+2024/04/07 13:29:20- FlushFileBuffers : 1
+2024/04/07 13:29:20- Checking if grub4dos is installed properly
+2024/04/07 13:29:20- Checking for Grub4dos/Wee/FB MBR on disk #2
+2024/04/07 13:29:20- version: 1.6
+base boot sector: 63
+boot code size: 4
+primary data size: 16128
+extended data size: 0
+debug version: no
+bpb status: copy
+format options:
+file list size: 896
+file list used: 1
+files:
+  0    "grldr" 0x3c4 272255 (2013-07-23 21:02:17)
+  0    "grub.exe" 0x5da 291231 (2013-07-23 21:02:17)
+  0    "plpbt.bin" 0x816 43559 (2012-02-24 21:25:52)
+  0    "fb.cfg" 0x86c 221 (2024-04-07 12:03:18)
+  1*   0x86d 0x3693
+primary area free space: 7125210
+extended area free space: 0
+
+
+2024/04/07 13:29:20- FBinst data found
+2024/04/07 13:29:20- Installing grub4dos and boot files
+2024/04/07 13:29:20- grub4dos is installed
+2024/04/07 13:29:20- Preparing NT6 source
+2024/04/07 13:29:20- Determining if this is NT Setup or PE based utility, looking for install.wim, install.swm or install.esd
+2024/04/07 13:29:20- 
+7-Zip 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+Listing archive: D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+
+--
+Path = D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+Type = Udf
+Comment = ESD-ISO
+Cluster Size = 2048
+Created = 2023-01-07 07:05:34
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-01-07 07:05:21 .....   4057847146   4057847808  sources\install.esd
+------------------- ----- ------------ ------------  ------------------------
+                            4057847146   4057847808  1 files, 0 folders
+
+2024/04/07 13:29:20- Found install.wim, install.swm or install.esd, assuming NT Setup
+2024/04/07 13:29:20- Custom folder and boot menu name for Windows NT6 Setup checkbox was selected, gathering data
+2024/04/07 13:29:26- Custom setup folder entered: Windows
+2024/04/07 13:29:40- Custom Windows Setup boot name entered: Windows-10-RKP
+2024/04/07 13:29:40- Changed NT6 boot menu name to: Windows-10-RKP
+2024/04/07 13:29:40- Preparing NT6 boot files, please wait...
+2024/04/07 13:29:40- Path to bcdedit.exe: C:\Windows\system32
+2024/04/07 13:29:40- Extracting boot files from D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+2024/04/07 13:29:40- 
+7-Zip 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+Processing archive: D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+
+Extracting  boot
+Extracting  boot\en-us
+Extracting  boot\en-us\bootsect.exe.mui
+Extracting  boot\fonts
+Extracting  boot\fonts\chs_boot.ttf
+Extracting  boot\fonts\cht_boot.ttf
+Extracting  boot\fonts\jpn_boot.ttf
+Extracting  boot\fonts\kor_boot.ttf
+Extracting  boot\fonts\malgunn_boot.ttf
+Extracting  boot\fonts\malgun_boot.ttf
+Extracting  boot\fonts\malgun_console.ttf
+Extracting  boot\fonts\meiryon_boot.ttf
+Extracting  boot\fonts\meiryo_boot.ttf
+Extracting  boot\fonts\meiryo_console.ttf
+Extracting  boot\fonts\msjhn_boot.ttf
+Extracting  boot\fonts\msjh_boot.ttf
+Extracting  boot\fonts\msjh_console.ttf
+Extracting  boot\fonts\msyhn_boot.ttf
+Extracting  boot\fonts\msyh_boot.ttf
+Extracting  boot\fonts\msyh_console.ttf
+Extracting  boot\fonts\segmono_boot.ttf
+Extracting  boot\fonts\segoen_slboot.ttf
+Extracting  boot\fonts\segoe_slboot.ttf
+Extracting  boot\fonts\wgl4_boot.ttf
+Extracting  boot\resources
+Extracting  boot\resources\bootres.dll
+Extracting  boot\bcd
+Extracting  boot\boot.sdi
+Extracting  boot\bootfix.bin
+Extracting  boot\bootsect.exe
+Extracting  boot\etfsboot.com
+Extracting  boot\memtest.exe
+Extracting  efi
+Extracting  efi\boot
+Extracting  efi\boot\bootx64.efi
+Extracting  efi\microsoft
+Extracting  efi\microsoft\boot
+Extracting  efi\microsoft\boot\fonts
+Extracting  efi\microsoft\boot\fonts\chs_boot.ttf
+Extracting  efi\microsoft\boot\fonts\cht_boot.ttf
+Extracting  efi\microsoft\boot\fonts\jpn_boot.ttf
+Extracting  efi\microsoft\boot\fonts\kor_boot.ttf
+Extracting  efi\microsoft\boot\fonts\malgunn_boot.ttf
+Extracting  efi\microsoft\boot\fonts\malgun_boot.ttf
+Extracting  efi\microsoft\boot\fonts\malgun_console.ttf
+Extracting  efi\microsoft\boot\fonts\meiryon_boot.ttf
+Extracting  efi\microsoft\boot\fonts\meiryo_boot.ttf
+Extracting  efi\microsoft\boot\fonts\meiryo_console.ttf
+Extracting  efi\microsoft\boot\fonts\msjhn_boot.ttf
+Extracting  efi\microsoft\boot\fonts\msjh_boot.ttf
+Extracting  efi\microsoft\boot\fonts\msjh_console.ttf
+Extracting  efi\microsoft\boot\fonts\msyhn_boot.ttf
+Extracting  efi\microsoft\boot\fonts\msyh_boot.ttf
+Extracting  efi\microsoft\boot\fonts\msyh_console.ttf
+Extracting  efi\microsoft\boot\fonts\segmono_boot.ttf
+Extracting  efi\microsoft\boot\fonts\segoen_slboot.ttf
+Extracting  efi\microsoft\boot\fonts\segoe_slboot.ttf
+Extracting  efi\microsoft\boot\fonts\wgl4_boot.ttf
+Extracting  efi\microsoft\boot\resources
+Extracting  efi\microsoft\boot\resources\bootres.dll
+Extracting  efi\microsoft\boot\bcd
+Extracting  efi\microsoft\boot\cdboot.efi
+Extracting  efi\microsoft\boot\cdboot_noprompt.efi
+Extracting  efi\microsoft\boot\efisys.bin
+Extracting  efi\microsoft\boot\efisys_noprompt.bin
+Extracting  efi\microsoft\boot\memtest.efi
+Extracting  efi\microsoft\boot\winsipolicy.p7b
+Extracting  bootmgr
+
+Everything is Ok
+
+Folders: 10
+Files: 58
+Size:       41018238
+Compressed: 4783996928
+
+2024/04/07 13:29:41- 
+Windows Boot Loader
+-------------------
+identifier              {7619dcc9-fafe-11d9-b411-000476eba25f}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             Windows Setup
+locale                  en-US
+inherit                 {6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:29:41- Processing GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:29:41- Parsing D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd for GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:29:42- 
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             Windows Setup
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:29:42- Element: identifier
+2024/04/07 13:29:42- Element: device
+2024/04/07 13:29:42- Processing device
+2024/04/07 13:29:42- device: \sources\boot.wim
+2024/04/07 13:29:42- boot.wim name: boot.wim
+2024/04/07 13:29:42- boot.wim path: \sources\
+2024/04/07 13:29:42- Extracting \sources\boot.wim from D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+2024/04/07 13:29:49- 
+7-Zip 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+Processing archive: D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+
+Extracting  sources\boot.wim
+
+Everything is Ok
+
+Size:       443748690
+Compressed: 4783996928
+
+2024/04/07 13:29:49- Determining boot image index
+2024/04/07 13:29:49- WIM Information:
+----------------
+Path:           D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\sources\boot.wim
+GUID:           0xf317c1b05a318346ad65460caac1fcf2
+Version:        68864
+Image Count:    2
+Compression:    LZX
+Chunk Size:     32768 bytes
+Part Number:    1/1
+Boot Index:     2
+Size:           443744758 bytes
+Attributes:     Relative path junction
+
+Available Images:
+-----------------
+Index:                  1
+Name:                   Microsoft Windows PE (x64)
+Description:            Microsoft Windows PE (x64)
+Directory Count:        4995
+File Count:             17743
+Total Bytes:            1802400110
+Hard Link Bytes:        792531957
+Creation Time:          Sat Dec 07 07:09:54 2019 UTC
+Last Modification Time: Sat Jan 07 14:04:58 2023 UTC
+Architecture:           x86_64
+Product Name:           Microsoft® Windows® Operating System
+Edition ID:             WindowsPE
+Installation Type:      WindowsPE
+Product Type:           WinNT
+Languages:              en-US 
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  19041
+Service Pack Build:     2006
+Service Pack Level:     0
+Flags:                  9
+WIMBoot compatible:     no
+
+Index:                  2
+Name:                   Microsoft Windows Setup (x64)
+Description:            Microsoft Windows Setup (x64)
+Directory Count:        5044
+File Count:             18253
+Total Bytes:            1966188611
+Hard Link Bytes:        874789356
+Creation Time:          Sat Dec 07 07:10:10 2019 UTC
+Last Modification Time: Sat Jan 07 14:05:07 2023 UTC
+Architecture:           x86_64
+Product Name:           Microsoft® Windows® Operating System
+Edition ID:             WindowsPE
+Installation Type:      WindowsPE
+Product Type:           WinNT
+Languages:              en-US 
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  19041
+Service Pack Build:     2006
+Service Pack Level:     0
+Flags:                  2
+WIMBoot compatible:     no
+
+
+2024/04/07 13:29:49- Boot image index: 2
+2024/04/07 13:29:49- Extracting winpeshl.ini from boot.wim
+2024/04/07 13:29:49- [WARNING] No matches for path pattern "\windows\system32\winpeshl.ini"
+Done extracting files.
+
+2024/04/07 13:29:49- Determining 64 bit version
+2024/04/07 13:29:50- \Windows\SysWOW64
+
+2024/04/07 13:29:50- 64-bits version found
+2024/04/07 13:29:50- Determining version of D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+2024/04/07 13:29:50- 
+7-Zip 9.30 alpha  Copyright (c) 1999-2012 Igor Pavlov  2012-10-26
+
+Listing archive: D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+
+--
+Path = D:\All ISO IMAGE\Windows_10_22h2_x64.iso
+Type = Udf
+Comment = ESD-ISO
+Cluster Size = 2048
+Created = 2023-01-07 07:05:34
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2022-09-08 01:07:18 .....      2359350      2361344  sources\background_cli.bmp
+------------------- ----- ------------ ------------  ------------------------
+                               2359350      2361344  1 files, 0 folders
+
+2024/04/07 13:29:50- Information for Image 2
+-----------------------
+Index:                  2
+Name:                   Microsoft Windows Setup (x64)
+Description:            Microsoft Windows Setup (x64)
+Directory Count:        5044
+File Count:             18253
+Total Bytes:            1966188611
+Hard Link Bytes:        874789356
+Creation Time:          Sat Dec 07 07:10:10 2019 UTC
+Last Modification Time: Sat Jan 07 14:05:07 2023 UTC
+Architecture:           x86_64
+Product Name:           Microsoft® Windows® Operating System
+Edition ID:             WindowsPE
+Installation Type:      WindowsPE
+Product Type:           WinNT
+Languages:              en-US 
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  19041
+Service Pack Build:     2006
+Service Pack Level:     0
+Flags:                  2
+WIMBoot compatible:     no
+
+
+2024/04/07 13:29:50- Major version: 10
+2024/04/07 13:29:50- Minor version: 0
+2024/04/07 13:29:50- Build: 19041
+2024/04/07 13:29:50- Service Pack Level: 0
+2024/04/07 13:29:50- AMD64 flag: 1
+2024/04/07 13:29:50- Boot menu build:  Version 2004
+2024/04/07 13:29:50- NT boot menu name: Windows-10-RKP
+2024/04/07 13:29:50- NT folder name: \WINSETUP\Windows
+2024/04/07 13:29:50- Winpeshl.ini:
+[LaunchApps]
+%systemdrive%\windows\WinPreSetup.exe, "/mountiso=WINSETUP\Windows\Windows_10_22h2_x64.iso.001"
+%systemdrive%\windows\WinPreSetup.exe, "/startsetup"
+
+
+2024/04/07 13:29:50- Updating winpeshl.ini
+2024/04/07 13:29:51- Information for Image 2
+-----------------------
+Index:                  2
+Name:                   Microsoft Windows Setup (x64)
+Description:            Microsoft Windows Setup (x64)
+Directory Count:        5044
+File Count:             18253
+Total Bytes:            1966188611
+Hard Link Bytes:        874789356
+Creation Time:          Sat Dec 07 07:10:10 2019 UTC
+Last Modification Time: Sat Jan 07 14:05:07 2023 UTC
+Architecture:           x86_64
+Product Name:           Microsoft® Windows® Operating System
+Edition ID:             WindowsPE
+Installation Type:      WindowsPE
+Product Type:           WinNT
+Languages:              en-US 
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  19041
+Service Pack Build:     2006
+Service Pack Level:     0
+Flags:                  2
+WIMBoot compatible:     no
+
+Scanning "D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\Windows\System32\Winpeshl.ini" (loading as WIM path: "\Windows\System32\Winpeshl.ini")...
+165 bytes scanned (1 files, 0 directories)    165 bytes scanned (1 files, 0 directories)    
+Using LZX compression with 1 thread
+Archiving file data: 0 bytes of 165 bytes (0%) doneArchiving file data: 165 bytes of 165 bytes (100%) done
+
+2024/04/07 13:29:51- Adding WinPreSetup.exe to boot.wim
+2024/04/07 13:29:52- Scanning "D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\Windows\WinPreSetup.exe" (loading as WIM path: "\Windows\WinPreSetup.exe")...
+1210 KiB scanned (1 files, 0 directories)    1210 KiB scanned (1 files, 0 directories)    
+Using LZX compression with 1 thread
+Archiving file data: 0 KiB of 1210 KiB (0%) doneArchiving file data: 32 KiB of 1210 KiB (2%) doneArchiving file data: 64 KiB of 1210 KiB (5%) doneArchiving file data: 96 KiB of 1210 KiB (7%) doneArchiving file data: 128 KiB of 1210 KiB (10%) doneArchiving file data: 160 KiB of 1210 KiB (13%) doneArchiving file data: 192 KiB of 1210 KiB (15%) doneArchiving file data: 224 KiB of 1210 KiB (18%) doneArchiving file data: 256 KiB of 1210 KiB (21%) doneArchiving file data: 288 KiB of 1210 KiB (23%) doneArchiving file data: 320 KiB of 1210 KiB (26%) doneArchiving file data: 352 KiB of 1210 KiB (29%) doneArchiving file data: 384 KiB of 1210 KiB (31%) doneArchiving file data: 416 KiB of 1210 KiB (34%) doneArchiving file data: 448 KiB of 1210 KiB (37%) doneArchiving file data: 480 KiB of 1210 KiB (39%) doneArchiving file data: 512 KiB of 1210 KiB (42%) doneArchiving file data: 544 KiB of 1210 KiB (44%) doneArchiving file data: 576 KiB of 1210 KiB (47%) doneArchiving file data: 608 KiB of 1210 KiB (50%) doneArchiving file data: 640 KiB of 1210 KiB (52%) doneArchiving file data: 672 KiB of 1210 KiB (55%) doneArchiving file data: 704 KiB of 1210 KiB (58%) doneArchiving file data: 736 KiB of 1210 KiB (60%) doneArchiving file data: 768 KiB of 1210 KiB (63%) doneArchiving file data: 800 KiB of 1210 KiB (66%) doneArchiving file data: 832 KiB of 1210 KiB (68%) doneArchiving file data: 864 KiB of 1210 KiB (71%) doneArchiving file data: 896 KiB of 1210 KiB (74%) doneArchiving file data: 928 KiB of 1210 KiB (76%) doneArchiving file data: 960 KiB of 1210 KiB (79%) doneArchiving file data: 992 KiB of 1210 KiB (81%) doneArchiving file data: 1024 KiB of 1210 KiB (84%) doneArchiving file data: 1056 KiB of 1210 KiB (87%) doneArchiving file data: 1088 KiB of 1210 KiB (89%) doneArchiving file data: 1120 KiB of 1210 KiB (92%) doneArchiving file data: 1152 KiB of 1210 KiB (95%) doneArchiving file data: 1184 KiB of 1210 KiB (97%) doneArchiving file data: 1210 KiB of 1210 KiB (100%) done
+
+2024/04/07 13:29:52- FlushFileBuffers : 1
+2024/04/07 13:29:53- FlushFileBuffers : 1
+2024/04/07 13:29:55- Optimizing boot.wim
+2024/04/07 13:29:59- "D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\sources\boot.wim" original size: 437165 KiB
+Using LZX compression with 4 threads
+Archiving file data: 0 MiB of 1070 MiB (0%) doneArchiving file data: 0 MiB of 1070 MiB (0%) doneArchiving file data: 5 MiB of 1070 MiB (0%) doneArchiving file data: 10 MiB of 1070 MiB (1%) doneArchiving file data: 15 MiB of 1070 MiB (1%) doneArchiving file data: 20 MiB of 1070 MiB (1%) doneArchiving file data: 28 MiB of 1070 MiB (2%) doneArchiving file data: 36 MiB of 1070 MiB (3%) doneArchiving file data: 45 MiB of 1070 MiB (4%) doneArchiving file data: 50 MiB of 1070 MiB (4%) doneArchiving file data: 56 MiB of 1070 MiB (5%) doneArchiving file data: 71 MiB of 1070 MiB (6%) doneArchiving file data: 75 MiB of 1070 MiB (7%) doneArchiving file data: 89 MiB of 1070 MiB (8%) doneArchiving file data: 95 MiB of 1070 MiB (8%) doneArchiving file data: 100 MiB of 1070 MiB (9%) doneArchiving file data: 105 MiB of 1070 MiB (9%) doneArchiving file data: 111 MiB of 1070 MiB (10%) doneArchiving file data: 118 MiB of 1070 MiB (11%) doneArchiving file data: 128 MiB of 1070 MiB (12%) doneArchiving file data: 133 MiB of 1070 MiB (12%) doneArchiving file data: 138 MiB of 1070 MiB (12%) doneArchiving file data: 143 MiB of 1070 MiB (13%) doneArchiving file data: 148 MiB of 1070 MiB (13%) doneArchiving file data: 153 MiB of 1070 MiB (14%) doneArchiving file data: 159 MiB of 1070 MiB (14%) doneArchiving file data: 164 MiB of 1070 MiB (15%) doneArchiving file data: 172 MiB of 1070 MiB (16%) doneArchiving file data: 178 MiB of 1070 MiB (16%) doneArchiving file data: 189 MiB of 1070 MiB (17%) doneArchiving file data: 194 MiB of 1070 MiB (18%) doneArchiving file data: 200 MiB of 1070 MiB (18%) doneArchiving file data: 205 MiB of 1070 MiB (19%) doneArchiving file data: 210 MiB of 1070 MiB (19%) doneArchiving file data: 216 MiB of 1070 MiB (20%) doneArchiving file data: 222 MiB of 1070 MiB (20%) doneArchiving file data: 228 MiB of 1070 MiB (21%) doneArchiving file data: 233 MiB of 1070 MiB (21%) doneArchiving file data: 238 MiB of 1070 MiB (22%) doneArchiving file data: 243 MiB of 1070 MiB (22%) doneArchiving file data: 250 MiB of 1070 MiB (23%) doneArchiving file data: 255 MiB of 1070 MiB (23%) doneArchiving file data: 259 MiB of 1070 MiB (24%) doneArchiving file data: 265 MiB of 1070 MiB (24%) doneArchiving file data: 270 MiB of 1070 MiB (25%) doneArchiving file data: 276 MiB of 1070 MiB (25%) doneArchiving file data: 281 MiB of 1070 MiB (26%) doneArchiving file data: 286 MiB of 1070 MiB (26%) doneArchiving file data: 294 MiB of 1070 MiB (27%) doneArchiving file data: 308 MiB of 1070 MiB (28%) doneArchiving file data: 313 MiB of 1070 MiB (29%) doneArchiving file data: 318 MiB of 1070 MiB (29%) doneArchiving file data: 325 MiB of 1070 MiB (30%) doneArchiving file data: 330 MiB of 1070 MiB (30%) doneArchiving file data: 335 MiB of 1070 MiB (31%) doneArchiving file data: 340 MiB of 1070 MiB (31%) doneArchiving file data: 345 MiB of 1070 MiB (32%) doneArchiving file data: 350 MiB of 1070 MiB (32%) doneArchiving file data: 355 MiB of 1070 MiB (33%) doneArchiving file data: 360 MiB of 1070 MiB (33%) doneArchiving file data: 365 MiB of 1070 MiB (34%) doneArchiving file data: 370 MiB of 1070 MiB (34%) doneArchiving file data: 375 MiB of 1070 MiB (35%) doneArchiving file data: 381 MiB of 1070 MiB (35%) doneArchiving file data: 386 MiB of 1070 MiB (36%) doneArchiving file data: 393 MiB of 1070 MiB (36%) doneArchiving file data: 400 MiB of 1070 MiB (37%) doneArchiving file data: 404 MiB of 1070 MiB (37%) doneArchiving file data: 413 MiB of 1070 MiB (38%) doneArchiving file data: 422 MiB of 1070 MiB (39%) doneArchiving file data: 431 MiB of 1070 MiB (40%) doneArchiving file data: 436 MiB of 1070 MiB (40%) doneArchiving file data: 441 MiB of 1070 MiB (41%) doneArchiving file data: 446 MiB of 1070 MiB (41%) doneArchiving file data: 452 MiB of 1070 MiB (42%) doneArchiving file data: 457 MiB of 1070 MiB (42%) doneArchiving file data: 462 MiB of 1070 MiB (43%) doneArchiving file data: 467 MiB of 1070 MiB (43%) doneArchiving file data: 472 MiB of 1070 MiB (44%) doneArchiving file data: 478 MiB of 1070 MiB (44%) doneArchiving file data: 484 MiB of 1070 MiB (45%) doneArchiving file data: 489 MiB of 1070 MiB (45%) doneArchiving file data: 494 MiB of 1070 MiB (46%) doneArchiving file data: 500 MiB of 1070 MiB (46%) doneArchiving file data: 507 MiB of 1070 MiB (47%) doneArchiving file data: 514 MiB of 1070 MiB (48%) doneArchiving file data: 518 MiB of 1070 MiB (48%) doneArchiving file data: 524 MiB of 1070 MiB (48%) doneArchiving file data: 529 MiB of 1070 MiB (49%) doneArchiving file data: 534 MiB of 1070 MiB (49%) doneArchiving file data: 539 MiB of 1070 MiB (50%) doneArchiving file data: 545 MiB of 1070 MiB (50%) doneArchiving file data: 553 MiB of 1070 MiB (51%) doneArchiving file data: 558 MiB of 1070 MiB (52%) doneArchiving file data: 564 MiB of 1070 MiB (52%) doneArchiving file data: 570 MiB of 1070 MiB (53%) doneArchiving file data: 574 MiB of 1070 MiB (53%) doneArchiving file data: 579 MiB of 1070 MiB (54%) doneArchiving file data: 584 MiB of 1070 MiB (54%) doneArchiving file data: 589 MiB of 1070 MiB (55%) doneArchiving file data: 594 MiB of 1070 MiB (55%) doneArchiving file data: 599 MiB of 1070 MiB (55%) doneArchiving file data: 604 MiB of 1070 MiB (56%) doneArchiving file data: 609 MiB of 1070 MiB (56%) doneArchiving file data: 614 MiB of 1070 MiB (57%) doneArchiving file data: 618 MiB of 1070 MiB (57%) doneArchiving file data: 629 MiB of 1070 MiB (58%) doneArchiving file data: 634 MiB of 1070 MiB (59%) doneArchiving file data: 639 MiB of 1070 MiB (59%) doneArchiving file data: 644 MiB of 1070 MiB (60%) doneArchiving file data: 649 MiB of 1070 MiB (60%) doneArchiving file data: 656 MiB of 1070 MiB (61%) doneArchiving file data: 660 MiB of 1070 MiB (61%) doneArchiving file data: 665 MiB of 1070 MiB (62%) doneArchiving file data: 670 MiB of 1070 MiB (62%) doneArchiving file data: 675 MiB of 1070 MiB (63%) doneArchiving file data: 680 MiB of 1070 MiB (63%) doneArchiving file data: 684 MiB of 1070 MiB (63%) doneArchiving file data: 689 MiB of 1070 MiB (64%) doneArchiving file data: 694 MiB of 1070 MiB (64%) doneArchiving file data: 699 MiB of 1070 MiB (65%) doneArchiving file data: 704 MiB of 1070 MiB (65%) doneArchiving file data: 709 MiB of 1070 MiB (66%) doneArchiving file data: 714 MiB of 1070 MiB (66%) doneArchiving file data: 719 MiB of 1070 MiB (67%) doneArchiving file data: 724 MiB of 1070 MiB (67%) doneArchiving file data: 730 MiB of 1070 MiB (68%) doneArchiving file data: 736 MiB of 1070 MiB (68%) doneArchiving file data: 754 MiB of 1070 MiB (70%) doneArchiving file data: 758 MiB of 1070 MiB (70%) doneArchiving file data: 763 MiB of 1070 MiB (71%) doneArchiving file data: 768 MiB of 1070 MiB (71%) doneArchiving file data: 774 MiB of 1070 MiB (72%) doneArchiving file data: 782 MiB of 1070 MiB (73%) doneArchiving file data: 795 MiB of 1070 MiB (74%) doneArchiving file data: 799 MiB of 1070 MiB (74%) doneArchiving file data: 805 MiB of 1070 MiB (75%) doneArchiving file data: 810 MiB of 1070 MiB (75%) doneArchiving file data: 815 MiB of 1070 MiB (76%) doneArchiving file data: 820 MiB of 1070 MiB (76%) doneArchiving file data: 826 MiB of 1070 MiB (77%) doneArchiving file data: 831 MiB of 1070 MiB (77%) doneArchiving file data: 836 MiB of 1070 MiB (78%) doneArchiving file data: 842 MiB of 1070 MiB (78%) doneArchiving file data: 848 MiB of 1070 MiB (79%) doneArchiving file data: 854 MiB of 1070 MiB (79%) doneArchiving file data: 858 MiB of 1070 MiB (80%) doneArchiving file data: 866 MiB of 1070 MiB (80%) doneArchiving file data: 871 MiB of 1070 MiB (81%) doneArchiving file data: 876 MiB of 1070 MiB (81%) doneArchiving file data: 881 MiB of 1070 MiB (82%) doneArchiving file data: 893 MiB of 1070 MiB (83%) doneArchiving file data: 901 MiB of 1070 MiB (84%) doneArchiving file data: 908 MiB of 1070 MiB (84%) doneArchiving file data: 912 MiB of 1070 MiB (85%) doneArchiving file data: 919 MiB of 1070 MiB (85%) doneArchiving file data: 933 MiB of 1070 MiB (87%) doneArchiving file data: 939 MiB of 1070 MiB (87%) doneArchiving file data: 952 MiB of 1070 MiB (88%) doneArchiving file data: 957 MiB of 1070 MiB (89%) doneArchiving file data: 970 MiB of 1070 MiB (90%) doneArchiving file data: 975 MiB of 1070 MiB (91%) doneArchiving file data: 982 MiB of 1070 MiB (91%) doneArchiving file data: 993 MiB of 1070 MiB (92%) doneArchiving file data: 1004 MiB of 1070 MiB (93%) doneArchiving file data: 1011 MiB of 1070 MiB (94%) doneArchiving file data: 1020 MiB of 1070 MiB (95%) doneArchiving file data: 1025 MiB of 1070 MiB (95%) doneArchiving file data: 1030 MiB of 1070 MiB (96%) doneArchiving file data: 1034 MiB of 1070 MiB (96%) doneArchiving file data: 1039 MiB of 1070 MiB (97%) doneArchiving file data: 1044 MiB of 1070 MiB (97%) doneArchiving file data: 1049 MiB of 1070 MiB (97%) doneArchiving file data: 1054 MiB of 1070 MiB (98%) doneArchiving file data: 1058 MiB of 1070 MiB (98%) doneArchiving file data: 1063 MiB of 1070 MiB (99%) doneArchiving file data: 1068 MiB of 1070 MiB (99%) doneArchiving file data: 1070 MiB of 1070 MiB (100%) done
+"D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\sources\boot.wim" optimized size: 433253 KiB
+Space saved: 3911 KiB
+
+2024/04/07 13:29:59- FlushFileBuffers : 1
+2024/04/07 13:30:00- Extracting winpeshl.ini from boot.wim
+2024/04/07 13:30:00- Extracting file data: 165 bytes of 165 bytes (100%) done
+Done extracting files.
+
+2024/04/07 13:30:00- Updated WinPEShl.ini: 
+[LaunchApps]
+%systemdrive%\windows\WinPreSetup.exe, "/mountiso=WINSETUP\Windows\Windows_10_22h2_x64.iso.001"
+%systemdrive%\windows\WinPreSetup.exe, "/startsetup"
+
+
+2024/04/07 13:30:00- Element: path
+2024/04/07 13:30:00- Element: description
+2024/04/07 13:30:00- Element: locale
+2024/04/07 13:30:00- Element: inherit
+2024/04/07 13:30:00- Element: osdevice
+2024/04/07 13:30:00- Element: systemroot
+2024/04/07 13:30:00- Element: bootmenupolicy
+2024/04/07 13:30:00- Element: detecthal
+2024/04/07 13:30:00- Element: winpe
+2024/04/07 13:30:00- Element: ems
+2024/04/07 13:30:00- BCDCumul: \sources\boot.wim|\WINSETUP\Windows\sources\boot.wim|Windows-10-RKP
+
+2024/04/07 13:30:01- 
+Windows Boot Loader
+-------------------
+identifier              {7619dcc9-fafe-11d9-b411-000476eba25f}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             Windows Setup
+locale                  en-US
+inherit                 {6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:30:01- Processing GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:01- Parsing D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd for GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:01- 
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             Windows Setup
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:30:01- Element: identifier
+2024/04/07 13:30:01- Element: device
+2024/04/07 13:30:01- Updating GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:01- Updating device from \sources\boot.wim to \WINSETUP\Windows\sources\boot.wim
+2024/04/07 13:30:02- The operation completed successfully.
+
+2024/04/07 13:30:02- FlushFileBuffers : 1
+2024/04/07 13:30:02- Updating description to Windows-10-RKP
+2024/04/07 13:30:03- The operation completed successfully.
+
+2024/04/07 13:30:03- FlushFileBuffers : 1
+2024/04/07 13:30:03- Element: path
+2024/04/07 13:30:03- Element: description
+2024/04/07 13:30:03- Element: locale
+2024/04/07 13:30:03- Element: inherit
+2024/04/07 13:30:03- Element: osdevice
+2024/04/07 13:30:03- Updating GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:03- Updating osdevice from \sources\boot.wim to \WINSETUP\Windows\sources\boot.wim
+2024/04/07 13:30:04- The operation completed successfully.
+
+2024/04/07 13:30:04- FlushFileBuffers : 1
+2024/04/07 13:30:04- Updating description to Windows-10-RKP
+2024/04/07 13:30:05- The operation completed successfully.
+
+2024/04/07 13:30:05- FlushFileBuffers : 1
+2024/04/07 13:30:05- Element: systemroot
+2024/04/07 13:30:05- Element: bootmenupolicy
+2024/04/07 13:30:05- Element: detecthal
+2024/04/07 13:30:05- Element: winpe
+2024/04/07 13:30:05- Element: ems
+2024/04/07 13:30:05- Updating BCD store in F:\boot\bcd
+2024/04/07 13:30:05- Adding elements of GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:05- Creating new entry
+2024/04/07 13:30:05- The entry {9df6c1ad-f51d-11ee-a83c-7446a0b0092b} was successfully created.
+
+2024/04/07 13:30:05- FlushFileBuffers : 1
+2024/04/07 13:30:06- New GUID: {9df6c1ad-f51d-11ee-a83c-7446a0b0092b}
+2024/04/07 13:30:06- Parsing D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd for GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:06- 
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             Windows-10-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:30:06- Parsed BCD store:
+2024/04/07 13:30:06- 
+Element: identifier   value: {default}
+Element: device   value: ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+Element: path   value: \windows\system32\boot\winload.exe
+Element: description   value: Windows-10-RKP
+Element: locale   value: en-US
+Element: inherit   value: {bootloadersettings}
+Element: osdevice   value: ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+Element: systemroot   value: \windows
+Element: bootmenupolicy   value: Standard
+Element: detecthal   value: Yes
+Element: winpe   value: Yes
+Element: ems   value: No
+
+2024/04/07 13:30:06- Adding element: device value: ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:06- The operation completed successfully.
+
+2024/04/07 13:30:06- FlushFileBuffers : 1
+2024/04/07 13:30:07- Adding element: path value: \windows\system32\boot\winload.exe
+2024/04/07 13:30:07- The operation completed successfully.
+
+2024/04/07 13:30:07- FlushFileBuffers : 1
+2024/04/07 13:30:07- Adding element: description value: Windows-10-RKP
+2024/04/07 13:30:08- The operation completed successfully.
+
+2024/04/07 13:30:08- FlushFileBuffers : 1
+2024/04/07 13:30:08- Adding element: locale value: en-US
+2024/04/07 13:30:08- The operation completed successfully.
+
+2024/04/07 13:30:08- FlushFileBuffers : 1
+2024/04/07 13:30:09- Adding element: inherit value: {bootloadersettings}
+2024/04/07 13:30:09- The operation completed successfully.
+
+2024/04/07 13:30:09- FlushFileBuffers : 1
+2024/04/07 13:30:09- Adding element: osdevice value: ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:09- The operation completed successfully.
+
+2024/04/07 13:30:09- FlushFileBuffers : 1
+2024/04/07 13:30:10- Adding element: systemroot value: \windows
+2024/04/07 13:30:10- The operation completed successfully.
+
+2024/04/07 13:30:10- FlushFileBuffers : 1
+2024/04/07 13:30:10- Adding element: bootmenupolicy value: Standard
+2024/04/07 13:30:11- The operation completed successfully.
+
+2024/04/07 13:30:11- FlushFileBuffers : 1
+2024/04/07 13:30:11- Adding element: detecthal value: Yes
+2024/04/07 13:30:11- The operation completed successfully.
+
+2024/04/07 13:30:11- FlushFileBuffers : 1
+2024/04/07 13:30:12- Adding element: winpe value: Yes
+2024/04/07 13:30:12- The operation completed successfully.
+
+2024/04/07 13:30:12- FlushFileBuffers : 1
+2024/04/07 13:30:12- Adding element: ems value: No
+2024/04/07 13:30:12- The operation completed successfully.
+
+2024/04/07 13:30:12- FlushFileBuffers : 1
+2024/04/07 13:30:13- Adding it as last in display order
+2024/04/07 13:30:13- The operation completed successfully.
+
+2024/04/07 13:30:13- FlushFileBuffers : 1
+2024/04/07 13:30:13- Setting global ems
+2024/04/07 13:30:14- The operation completed successfully.
+
+2024/04/07 13:30:14- FlushFileBuffers : 1
+2024/04/07 13:30:14- Final BCD store F:\boot\bcd
+
+
+2024/04/07 13:30:14- 
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {globalsettings}
+default                 {ntldr}
+displayorder            {ntldr}
+                        {7619dcc9-fafe-11d9-b411-000476eba25f}
+                        {b9dd4c92-f514-11ee-a838-7446a0b0092b}
+                        {0cda61b2-f51b-11ee-a83c-7446a0b0092b}
+                        {9df6c1ad-f51d-11ee-a83c-7446a0b0092b}
+toolsdisplayorder       {memdiag}
+timeout                 30
+
+Windows Boot Loader
+-------------------
+identifier              {0cda61b2-f51b-11ee-a83c-7446a0b0092b}
+device                  ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             HIRON-OS-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Boot Loader
+-------------------
+identifier              {7619dcc9-fafe-11d9-b411-000476eba25f}
+device                  ramdisk=[boot]\WINSETUP\Pendriv\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             Windows-10-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\WINSETUP\Pendriv\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Boot Loader
+-------------------
+identifier              {9df6c1ad-f51d-11ee-a83c-7446a0b0092b}
+device                  ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             Windows-10-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Boot Loader
+-------------------
+identifier              {b9dd4c92-f514-11ee-a838-7446a0b0092b}
+device                  ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.exe
+description             HiRON-OS-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+osdevice                ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Memory Tester
+---------------------
+identifier              {memdiag}
+device                  boot
+path                    \boot\memtest.exe
+description             Windows Memory Diagnostic
+locale                  en-US
+inherit                 {globalsettings}
+
+Windows Legacy OS Loader
+------------------------
+identifier              {ntldr}
+device                  boot
+path                    \grldr
+description             ...Back to Main Menu(Grub4dos)
+
+EMS Settings
+------------
+identifier              {emssettings}
+bootems                 Yes
+
+Debugger Settings
+-----------------
+identifier              {dbgsettings}
+debugtype               Serial
+debugport               1
+baudrate                115200
+
+Global Settings
+---------------
+identifier              {globalsettings}
+inherit                 {dbgsettings}
+                        {emssettings}
+
+Boot Loader Settings
+--------------------
+identifier              {bootloadersettings}
+inherit                 {globalsettings}
+                        {hypervisorsettings}
+
+Hypervisor Settings
+-------------------
+identifier              {hypervisorsettings}
+description             Hypervisor Settings
+hypervisordebugtype     Serial
+hypervisordebugport     1
+hypervisorbaudrate      115200
+
+Device options
+--------------
+identifier              {7619dcc8-fafe-11d9-b411-000476eba25f}
+ramdisksdidevice        boot
+ramdisksdipath          \boot\boot.sdi
+
+2024/04/07 13:30:15- 
+Windows Boot Loader
+-------------------
+identifier              {7619dcc9-fafe-11d9-b411-000476eba25f}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             Windows Setup
+locale                  en-US
+inherit                 {6efb52bf-1766-41db-a6b3-0ee5eff72bd7}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:30:15- Processing GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:15- Parsing D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd for GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:15- 
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             Windows Setup
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:30:15- Element: identifier
+2024/04/07 13:30:15- Element: device
+2024/04/07 13:30:15- Updating GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:15- Updating device from \sources\boot.wim to \WINSETUP\Windows\sources\boot.wim
+2024/04/07 13:30:16- The operation completed successfully.
+
+2024/04/07 13:30:16- FlushFileBuffers : 1
+2024/04/07 13:30:16- Updating description to Windows-10-RKP
+2024/04/07 13:30:17- The operation completed successfully.
+
+2024/04/07 13:30:17- FlushFileBuffers : 1
+2024/04/07 13:30:17- Element: path
+2024/04/07 13:30:17- Element: description
+2024/04/07 13:30:17- Element: locale
+2024/04/07 13:30:17- Element: inherit
+2024/04/07 13:30:17- Element: isolatedcontext
+2024/04/07 13:30:17- Element: osdevice
+2024/04/07 13:30:17- Updating GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:17- Updating osdevice from \sources\boot.wim to \WINSETUP\Windows\sources\boot.wim
+2024/04/07 13:30:18- The operation completed successfully.
+
+2024/04/07 13:30:18- FlushFileBuffers : 1
+2024/04/07 13:30:18- Updating description to Windows-10-RKP
+2024/04/07 13:30:18- The operation completed successfully.
+
+2024/04/07 13:30:18- FlushFileBuffers : 1
+2024/04/07 13:30:19- Element: systemroot
+2024/04/07 13:30:19- Element: bootmenupolicy
+2024/04/07 13:30:19- Element: detecthal
+2024/04/07 13:30:19- Element: winpe
+2024/04/07 13:30:19- Element: ems
+2024/04/07 13:30:19- Updating BCD store in F:\efi\microsoft\boot\bcd
+2024/04/07 13:30:19- Adding elements of GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:19- Creating new entry
+2024/04/07 13:30:19- The entry {a61f98ee-f51d-11ee-a83c-7446a0b0092b} was successfully created.
+
+2024/04/07 13:30:19- FlushFileBuffers : 1
+2024/04/07 13:30:19- New GUID: {a61f98ee-f51d-11ee-a83c-7446a0b0092b}
+2024/04/07 13:30:19- Parsing D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd for GUID {7619dcc9-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:20- 
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             Windows-10-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+2024/04/07 13:30:20- Parsed BCD store:
+2024/04/07 13:30:20- 
+Element: identifier   value: {default}
+Element: device   value: ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+Element: path   value: \windows\system32\boot\winload.efi
+Element: description   value: Windows-10-RKP
+Element: locale   value: en-US
+Element: inherit   value: {bootloadersettings}
+Element: isolatedcontext   value: Yes
+Element: osdevice   value: ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+Element: systemroot   value: \windows
+Element: bootmenupolicy   value: Standard
+Element: detecthal   value: Yes
+Element: winpe   value: Yes
+Element: ems   value: No
+
+2024/04/07 13:30:20- Adding element: device value: ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:20- The operation completed successfully.
+
+2024/04/07 13:30:20- FlushFileBuffers : 1
+2024/04/07 13:30:21- Adding element: path value: \windows\system32\boot\winload.efi
+2024/04/07 13:30:21- The operation completed successfully.
+
+2024/04/07 13:30:21- FlushFileBuffers : 1
+2024/04/07 13:30:21- Adding element: description value: Windows-10-RKP
+2024/04/07 13:30:21- The operation completed successfully.
+
+2024/04/07 13:30:21- FlushFileBuffers : 1
+2024/04/07 13:30:22- Adding element: locale value: en-US
+2024/04/07 13:30:22- The operation completed successfully.
+
+2024/04/07 13:30:22- FlushFileBuffers : 1
+2024/04/07 13:30:22- Adding element: inherit value: {bootloadersettings}
+2024/04/07 13:30:23- The operation completed successfully.
+
+2024/04/07 13:30:23- FlushFileBuffers : 1
+2024/04/07 13:30:23- Adding element: isolatedcontext value: Yes
+2024/04/07 13:30:23- The operation completed successfully.
+
+2024/04/07 13:30:23- FlushFileBuffers : 1
+2024/04/07 13:30:23- Adding element: osdevice value: ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+2024/04/07 13:30:24- The operation completed successfully.
+
+2024/04/07 13:30:24- FlushFileBuffers : 1
+2024/04/07 13:30:24- Adding element: systemroot value: \windows
+2024/04/07 13:30:24- The operation completed successfully.
+
+2024/04/07 13:30:24- FlushFileBuffers : 1
+2024/04/07 13:30:25- Adding element: bootmenupolicy value: Standard
+2024/04/07 13:30:25- The operation completed successfully.
+
+2024/04/07 13:30:25- FlushFileBuffers : 1
+2024/04/07 13:30:25- Adding element: detecthal value: Yes
+2024/04/07 13:30:25- The operation completed successfully.
+
+2024/04/07 13:30:25- FlushFileBuffers : 1
+2024/04/07 13:30:26- Adding element: winpe value: Yes
+2024/04/07 13:30:26- The operation completed successfully.
+
+2024/04/07 13:30:26- FlushFileBuffers : 1
+2024/04/07 13:30:26- Adding element: ems value: No
+2024/04/07 13:30:27- The operation completed successfully.
+
+2024/04/07 13:30:27- FlushFileBuffers : 1
+2024/04/07 13:30:27- Adding it as last in display order
+2024/04/07 13:30:27- The operation completed successfully.
+
+2024/04/07 13:30:27- FlushFileBuffers : 1
+2024/04/07 13:30:28- Setting global ems
+2024/04/07 13:30:28- The operation completed successfully.
+
+2024/04/07 13:30:28- FlushFileBuffers : 1
+2024/04/07 13:30:28- Final BCD store F:\efi\microsoft\boot\bcd
+
+
+2024/04/07 13:30:28- 
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+description             Windows Boot Manager
+locale                  en-US
+inherit                 {globalsettings}
+default                 {default}
+displayorder            {default}
+                        {c217dd5a-f514-11ee-a838-7446a0b0092b}
+                        {152b3264-f51b-11ee-a83c-7446a0b0092b}
+                        {a61f98ee-f51d-11ee-a83c-7446a0b0092b}
+toolsdisplayorder       {memdiag}
+timeout                 30
+
+Windows Boot Loader
+-------------------
+identifier              {152b3264-f51b-11ee-a83c-7446a0b0092b}
+device                  ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             HIRON-OS-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  ramdisk=[boot]\WINSETUP\Pendriv\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             Windows-10-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\WINSETUP\Pendriv\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Boot Loader
+-------------------
+identifier              {a61f98ee-f51d-11ee-a83c-7446a0b0092b}
+device                  ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             Windows-10-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\WINSETUP\Windows\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Standard
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Boot Loader
+-------------------
+identifier              {c217dd5a-f514-11ee-a838-7446a0b0092b}
+device                  ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+path                    \windows\system32\boot\winload.efi
+description             HiRON-OS-RKP
+locale                  en-US
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+osdevice                ramdisk=[boot]\WINSETUP\HIRON\sources\boot.wim,{7619dcc8-fafe-11d9-b411-000476eba25f}
+systemroot              \windows
+bootmenupolicy          Legacy
+detecthal               Yes
+winpe                   Yes
+ems                     No
+
+Windows Memory Tester
+---------------------
+identifier              {memdiag}
+device                  boot
+path                    \efi\microsoft\boot\memtest.efi
+description             Windows Memory Diagnostic
+locale                  en-US
+inherit                 {globalsettings}
+
+EMS Settings
+------------
+identifier              {emssettings}
+bootems                 Yes
+
+Debugger Settings
+-----------------
+identifier              {dbgsettings}
+debugtype               Serial
+debugport               1
+baudrate                115200
+
+Global Settings
+---------------
+identifier              {globalsettings}
+inherit                 {dbgsettings}
+                        {emssettings}
+
+Boot Loader Settings
+--------------------
+identifier              {bootloadersettings}
+inherit                 {globalsettings}
+                        {hypervisorsettings}
+
+Hypervisor Settings
+-------------------
+identifier              {hypervisorsettings}
+description             Hypervisor Settings
+hypervisordebugtype     Serial
+hypervisordebugport     1
+hypervisorbaudrate      115200
+
+Device options
+--------------
+identifier              {7619dcc8-fafe-11d9-b411-000476eba25f}
+ramdisksdidevice        boot
+ramdisksdipath          \boot\boot.sdi
+
+2024/04/07 13:30:28- Current ImDisk version detected - 11/25/2018,6.0.6001.18000
+2024/04/07 13:30:28- Copying started
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\bootmgr---> F:\bootmgr
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd---> F:\boot\bcd
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd.LOG---> F:\boot\bcd.LOG
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd.LOG1---> F:\boot\bcd.LOG1
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bcd.LOG2---> F:\boot\bcd.LOG2
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\boot.sdi---> F:\boot\boot.sdi
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bootfix.bin---> F:\boot\bootfix.bin
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\bootsect.exe---> F:\boot\bootsect.exe
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\en-us\bootsect.exe.mui---> F:\boot\en-us\bootsect.exe.mui
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\etfsboot.com---> F:\boot\etfsboot.com
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\chs_boot.ttf---> F:\boot\fonts\chs_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\cht_boot.ttf---> F:\boot\fonts\cht_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\jpn_boot.ttf---> F:\boot\fonts\jpn_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\kor_boot.ttf---> F:\boot\fonts\kor_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\malgun_boot.ttf---> F:\boot\fonts\malgun_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\malgun_console.ttf---> F:\boot\fonts\malgun_console.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\malgunn_boot.ttf---> F:\boot\fonts\malgunn_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\meiryo_boot.ttf---> F:\boot\fonts\meiryo_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\meiryo_console.ttf---> F:\boot\fonts\meiryo_console.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\meiryon_boot.ttf---> F:\boot\fonts\meiryon_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\msjh_boot.ttf---> F:\boot\fonts\msjh_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\msjh_console.ttf---> F:\boot\fonts\msjh_console.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\msjhn_boot.ttf---> F:\boot\fonts\msjhn_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\msyh_boot.ttf---> F:\boot\fonts\msyh_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\msyh_console.ttf---> F:\boot\fonts\msyh_console.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\msyhn_boot.ttf---> F:\boot\fonts\msyhn_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\segmono_boot.ttf---> F:\boot\fonts\segmono_boot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:28- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\segoe_slboot.ttf---> F:\boot\fonts\segoe_slboot.ttf
+2024/04/07 13:30:28- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\segoen_slboot.ttf---> F:\boot\fonts\segoen_slboot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\fonts\wgl4_boot.ttf---> F:\boot\fonts\wgl4_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\memtest.exe---> F:\boot\memtest.exe
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\boot\resources\bootres.dll---> F:\boot\resources\bootres.dll
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\boot\bootx64.efi---> F:\efi\boot\bootx64.efi
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd---> F:\efi\microsoft\boot\bcd
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd.LOG---> F:\efi\microsoft\boot\bcd.LOG
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd.LOG1---> F:\efi\microsoft\boot\bcd.LOG1
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\bcd.LOG2---> F:\efi\microsoft\boot\bcd.LOG2
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\cdboot.efi---> F:\efi\microsoft\boot\cdboot.efi
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\cdboot_noprompt.efi---> F:\efi\microsoft\boot\cdboot_noprompt.efi
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\efisys.bin---> F:\efi\microsoft\boot\efisys.bin
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\efisys_noprompt.bin---> F:\efi\microsoft\boot\efisys_noprompt.bin
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\chs_boot.ttf---> F:\efi\microsoft\boot\fonts\chs_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\cht_boot.ttf---> F:\efi\microsoft\boot\fonts\cht_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\jpn_boot.ttf---> F:\efi\microsoft\boot\fonts\jpn_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\kor_boot.ttf---> F:\efi\microsoft\boot\fonts\kor_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\malgun_boot.ttf---> F:\efi\microsoft\boot\fonts\malgun_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\malgun_console.ttf---> F:\efi\microsoft\boot\fonts\malgun_console.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\malgunn_boot.ttf---> F:\efi\microsoft\boot\fonts\malgunn_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\meiryo_boot.ttf---> F:\efi\microsoft\boot\fonts\meiryo_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\meiryo_console.ttf---> F:\efi\microsoft\boot\fonts\meiryo_console.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\meiryon_boot.ttf---> F:\efi\microsoft\boot\fonts\meiryon_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\msjh_boot.ttf---> F:\efi\microsoft\boot\fonts\msjh_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\msjh_console.ttf---> F:\efi\microsoft\boot\fonts\msjh_console.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\msjhn_boot.ttf---> F:\efi\microsoft\boot\fonts\msjhn_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\msyh_boot.ttf---> F:\efi\microsoft\boot\fonts\msyh_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\msyh_console.ttf---> F:\efi\microsoft\boot\fonts\msyh_console.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\msyhn_boot.ttf---> F:\efi\microsoft\boot\fonts\msyhn_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\segmono_boot.ttf---> F:\efi\microsoft\boot\fonts\segmono_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\segoe_slboot.ttf---> F:\efi\microsoft\boot\fonts\segoe_slboot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\segoen_slboot.ttf---> F:\efi\microsoft\boot\fonts\segoen_slboot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\fonts\wgl4_boot.ttf---> F:\efi\microsoft\boot\fonts\wgl4_boot.ttf
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\memtest.efi---> F:\efi\microsoft\boot\memtest.efi
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\resources\bootres.dll---> F:\efi\microsoft\boot\resources\bootres.dll
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\efi\microsoft\boot\winsipolicy.p7b---> F:\efi\microsoft\boot\winsipolicy.p7b
+2024/04/07 13:30:29- File exists, skipping
+2024/04/07 13:30:29- D:\All-Hacking-Important-Data\WinSetupFromUSB-1-10\TempWST\sources\boot.wim---> F:\WINSETUP\Windows\sources\boot.wim
+2024/04/07 13:31:28- D:\All ISO IMAGE\Windows_10_22h2_x64.iso---> F:\WINSETUP\Windows\Windows_10_22h2_x64.iso
+2024/04/07 13:42:17- FlushFileBuffers : 1
+2024/04/07 13:42:17- Copying completed. Took: 708.72 seconds
+2024/04/07 13:42:17- Checking bootmgr versions
+2024/04/07 13:42:17- Source BIOS bootmgr modify date: 20220908010717
+2024/04/07 13:42:17- Existing BIOS bootmgr modify date: 20230930232418
+2024/04/07 13:42:17- Source bootx64.efi modify date: 20220908010717
+2024/04/07 13:42:17- Existing bootx64.efi modify date: 20230930232748
+2024/04/07 13:42:17- Deleting TEMP folder
+2024/04/07 13:42:17- FlushFileBuffers : 1
+2024/04/07 13:42:40- Checking sizes...
+2024/04/07 13:42:40- Total source size- 0 bytes
+2024/04/07 13:42:40- Target space available- 43.0 GB
+2024/04/07 13:42:40- Getting USB drives information
+2024/04/07 13:42:40- Show all drives option is NOT selected, displaying USB drives only
+2024/04/07 13:42:40-   HP USB Flash Drive USB Device
+2024/04/07 13:42:40- 	DeviceID: \\.\PHYSICALDRIVE2
+2024/04/07 13:42:40- 	PNPDeviceID: USBSTOR\DISK&VEN_HP&PROD_USB_FLASH_DRIVE&REV_PMAP\07082AB332AEDB02&0
+2024/04/07 13:42:40- 	DiskSize: 57.7 GB Signature: 4F1ADF89
+2024/04/07 13:42:40- 	Partitions found: 1  MediaType: Removable Media
+2024/04/07 13:42:41- 		Disk--Partition: Disk #2, Partition #0
+2024/04/07 13:42:41- 			Logical Disk:F:  File system:FAT32 Primary:True  Bootable:True
+2024/04/07 13:42:41- 			FreeSpace: 38.2 GB Partition Size: 57.7 GB
+2024/04/07 13:42:41- 			Partition Starting Offset: 8257536
+2024/04/07 13:42:41- Drive letter of the selected partition- F:
+2024/04/07 13:42:41- Drive letter of the first primary partition in selected disk- F:
+2024/04/07 13:42:41- Disk number of the selected disk- 2
+2024/04/07 13:42:41- PNPId of the selected disk- USBSTOR\DISK&VEN_HP&PROD_USB_FLASH_DRIVE&REV_PMAP\07082AB332AEDB02&0
+2024/04/07 13:42:41- File system type of the selected partition- FAT32
+2024/04/07 13:42:41- Disk type of the selected disk- Removable
+2024/04/07 13:42:41- Total target space available- 41026125824 bytes ( 38.2 GB )
+2024/04/07 13:42:41- Checking sizes...
+2024/04/07 13:42:41- Total source size- 0 bytes
+2024/04/07 13:42:41- Target space available- 38.2 GB
+2024/04/07 13:42:43- ---------------------------------Program quited-----------------------------------------------
+
